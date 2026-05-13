@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 14px;
+  gap: 16px;
+}
+
+.pips {
+  display: flex;
+  gap: 5px;
+  flex: 1;
+}
+
+.pip {
+  height: 6px;
+  flex: 1;
+  border-radius: 3px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  transition: background 0.3s, border-color 0.3s;
+}
+
+.correct {
+  background: var(--correct);
+  border-color: var(--correct);
+}
+
+.wrong {
+  background: var(--wrong);
+  border-color: var(--wrong);
+}
+
+.attempts {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--surface);
+  border: 1.5px solid var(--border-hover);
+  transition: background 0.3s, border-color 0.3s, box-shadow 0.3s;
+}
+
+.current {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px var(--accent-subtle);
+}
+
+.used {
+  background: var(--accent);
+  border-color: var(--accent);
+}

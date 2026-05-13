@@ -1,0 +1,242 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  padding: 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.visible {
+  opacity: 1;
+}
+
+.modal {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  padding: 32px 24px 24px;
+  max-width: 380px;
+  width: 100%;
+  text-align: center;
+  animation: slideUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation-delay: 0.1s;
+  max-height: 90dvh;
+  overflow-y: auto;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.starsContainer {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  border-radius: var(--radius-xl);
+}
+
+.star {
+  position: absolute;
+  width: var(--size, 4px);
+  height: var(--size, 4px);
+  border-radius: 50%;
+  background: var(--accent);
+  animation: starFloat linear infinite, starPulse ease-in-out infinite;
+  box-shadow:
+    0 0 4px var(--accent),
+    0 0 8px rgba(255, 107, 74, 0.3);
+}
+
+.star:nth-child(odd) {
+  background: var(--correct);
+  box-shadow:
+    0 0 4px var(--correct),
+    0 0 8px rgba(74, 222, 128, 0.3);
+}
+
+.star:nth-child(3n) {
+  background: #fbbf24;
+  box-shadow:
+    0 0 4px #fbbf24,
+    0 0 8px rgba(251, 191, 36, 0.3);
+}
+
+@keyframes starFloat {
+  0% { transform: translateY(0) translateX(0); }
+  25% { transform: translateY(-15px) translateX(8px); }
+  50% { transform: translateY(-5px) translateX(-6px); }
+  75% { transform: translateY(-20px) translateX(4px); }
+  100% { transform: translateY(0) translateX(0); }
+}
+
+@keyframes starPulse {
+  0%, 100% { opacity: 0.3; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.6); }
+}
+
+.resultHeader {
+  margin-bottom: 24px;
+}
+
+.emoji {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.title {
+  font-size: 1.3rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin-bottom: 4px;
+  color: var(--text);
+}
+
+.subtitle {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.gridRow {
+  display: flex;
+  gap: 4px;
+}
+
+.gridCell {
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  animation: bounceIn 0.3s ease both;
+}
+
+.gridCell:nth-child(1) { animation-delay: 0.05s; }
+.gridCell:nth-child(2) { animation-delay: 0.1s; }
+.gridCell:nth-child(3) { animation-delay: 0.15s; }
+.gridCell:nth-child(4) { animation-delay: 0.2s; }
+.gridCell:nth-child(5) { animation-delay: 0.25s; }
+.gridCell:nth-child(6) { animation-delay: 0.3s; }
+.gridCell:nth-child(7) { animation-delay: 0.35s; }
+.gridCell:nth-child(8) { animation-delay: 0.4s; }
+
+.gridCorrect {
+  background: var(--correct);
+}
+
+.gridWrong {
+  background: var(--wrong);
+}
+
+.answerSection {
+  text-align: left;
+  margin-bottom: 24px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 14px 16px;
+}
+
+.answerLabel {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+  margin-bottom: 10px;
+}
+
+.answerList {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.answerItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 4px 0;
+}
+
+.answerIndex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--correct);
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.answerText {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.shareButton {
+  width: 100%;
+  padding: 14px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 700;
+  border-radius: var(--radius-md);
+  transition: background 0.15s, transform 0.1s;
+  box-shadow: 0 2px 8px rgba(255, 107, 74, 0.2);
+  margin-bottom: 16px;
+}
+
+.shareButton:hover {
+  background: var(--accent-hover);
+}
+
+.shareButton:active {
+  transform: scale(0.98);
+}
+
+.copied {
+  background: var(--correct) !important;
+  box-shadow: 0 2px 8px rgba(74, 222, 128, 0.2);
+}
+
+.countdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.countdownLabel {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+}
+
+.countdownTime {
+  font-size: 1.4rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-secondary);
+  letter-spacing: 0.05em;
+}

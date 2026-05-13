@@ -1,0 +1,34 @@
+.promptBox {
+  text-align: center;
+  padding: 20px 16px 12px;
+}
+
+.prompt {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--text);
+  letter-spacing: -0.01em;
+}
+
+.hintRow {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+  padding: 4px 14px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 100px;
+}
+
+.hintArrow {
+  color: var(--accent);
+  font-size: 0.7rem;
+}
+
+.hint {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
