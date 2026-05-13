@@ -1,218 +1,218 @@
 {
   "2026-05-12": {
     "prompt": "Order these US cities by population, smallest to largest",
-    "items": ["Phoenix", "San Antonio", "Philadelphia", "New York City", "San Diego", "Dallas", "Houston", "Chicago"],
-    "answer": ["San Diego", "Dallas", "San Antonio", "Philadelphia", "Phoenix", "Houston", "Chicago", "New York City"],
+    "items": ["Phoenix", "San Antonio", "Philadelphia", "San Diego", "Dallas", "Houston"],
+    "answer": ["Dallas", "San Diego", "San Antonio", "Philadelphia", "Phoenix", "Houston"],
     "hint": "smallest → largest"
   },
   "2026-05-13": {
-    "prompt": "Order these planets by distance from the Sun, closest to farthest",
-    "items": ["Jupiter", "Mars", "Earth", "Saturn", "Venus", "Mercury", "Uranus", "Neptune"],
-    "answer": ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"],
-    "hint": "closest → farthest"
+    "prompt": "Order these animated Disney movies by release year, oldest to newest",
+    "items": ["Frozen", "The Lion King", "Moana", "Aladdin", "Finding Nemo", "The Little Mermaid"],
+    "answer": ["The Little Mermaid", "Aladdin", "The Lion King", "Finding Nemo", "Frozen", "Moana"],
+    "hint": "oldest → newest"
   },
   "2026-05-14": {
     "prompt": "Order these movies by release year, oldest to newest",
-    "items": ["The Matrix", "Jurassic Park", "Inception", "Titanic", "Avatar", "Jaws", "Star Wars", "The Dark Knight"],
-    "answer": ["Jaws", "Star Wars", "Jurassic Park", "Titanic", "The Matrix", "The Dark Knight", "Avatar", "Inception"],
+    "items": ["The Matrix", "Jurassic Park", "Inception", "Titanic", "Jaws", "The Dark Knight"],
+    "answer": ["Jaws", "Jurassic Park", "Titanic", "The Matrix", "The Dark Knight", "Inception"],
     "hint": "oldest → newest"
   },
   "2026-05-15": {
-    "prompt": "Order these countries by area, smallest to largest",
-    "items": ["India", "Australia", "Brazil", "Canada", "Russia", "Argentina", "China", "United States"],
-    "answer": ["Argentina", "India", "Australia", "Brazil", "United States", "China", "Canada", "Russia"],
+    "prompt": "Order these countries by total area, smallest to largest",
+    "items": ["India", "Australia", "Brazil", "Canada", "Russia", "United States"],
+    "answer": ["India", "Australia", "Brazil", "United States", "Canada", "Russia"],
     "hint": "smallest → largest"
   },
   "2026-05-16": {
     "prompt": "Order these animals by average lifespan, shortest to longest",
-    "items": ["Elephant", "Tortoise", "Dog", "Parrot", "Goldfish", "Horse", "Cat", "Human"],
-    "answer": ["Goldfish", "Dog", "Cat", "Horse", "Parrot", "Human", "Elephant", "Tortoise"],
+    "items": ["Elephant", "Tortoise", "Dog", "Parrot", "Horse", "Human"],
+    "answer": ["Dog", "Horse", "Parrot", "Elephant", "Human", "Tortoise"],
     "hint": "shortest → longest"
   },
   "2026-05-17": {
     "prompt": "Order these inventions chronologically, earliest to latest",
-    "items": ["Telephone", "Internet", "Printing Press", "Light Bulb", "Television", "Automobile", "Airplane", "Computer"],
-    "answer": ["Printing Press", "Telephone", "Light Bulb", "Automobile", "Airplane", "Television", "Computer", "Internet"],
+    "items": ["Telephone", "Internet", "Printing Press", "Light Bulb", "Television", "Airplane"],
+    "answer": ["Printing Press", "Telephone", "Light Bulb", "Airplane", "Television", "Internet"],
     "hint": "earliest → latest"
   },
   "2026-05-18": {
-    "prompt": "Order these buildings by height, shortest to tallest",
-    "items": ["Eiffel Tower", "Empire State Building", "Burj Khalifa", "Big Ben", "Willis Tower", "One World Trade Center", "Taipei 101", "CN Tower"],
-    "answer": ["Big Ben", "Eiffel Tower", "Empire State Building", "Willis Tower", "CN Tower", "Taipei 101", "One World Trade Center", "Burj Khalifa"],
+    "prompt": "Order these structures by height, shortest to tallest",
+    "items": ["Eiffel Tower", "Empire State Building", "Burj Khalifa", "Big Ben", "One World Trade Center", "CN Tower"],
+    "answer": ["Big Ben", "Eiffel Tower", "Empire State Building", "One World Trade Center", "CN Tower", "Burj Khalifa"],
     "hint": "shortest → tallest"
   },
   "2026-05-19": {
-    "prompt": "Order these Taylor Swift albums by release date, earliest to latest",
-    "items": ["Midnights", "1989", "Reputation", "Folklore", "Red", "Fearless", "Lover", "Evermore"],
-    "answer": ["Fearless", "Red", "1989", "Reputation", "Lover", "Folklore", "Evermore", "Midnights"],
-    "hint": "earliest → latest"
+    "prompt": "Order these NBA players by career points scored, fewest to most",
+    "items": ["Kobe Bryant", "LeBron James", "Michael Jordan", "Kareem Abdul-Jabbar", "Shaquille O'Neal", "Kevin Durant"],
+    "answer": ["Shaquille O'Neal", "Kevin Durant", "Michael Jordan", "Kobe Bryant", "Kareem Abdul-Jabbar", "LeBron James"],
+    "hint": "fewest → most"
   },
   "2026-05-20": {
     "prompt": "Order these bodies of water by surface area, smallest to largest",
-    "items": ["Lake Superior", "Caspian Sea", "Lake Michigan", "Black Sea", "Mediterranean Sea", "Lake Victoria", "Caribbean Sea", "Arctic Ocean"],
-    "answer": ["Lake Michigan", "Lake Superior", "Lake Victoria", "Black Sea", "Caspian Sea", "Caribbean Sea", "Mediterranean Sea", "Arctic Ocean"],
+    "items": ["Lake Superior", "Caspian Sea", "Black Sea", "Mediterranean Sea", "Caribbean Sea", "Arctic Ocean"],
+    "answer": ["Lake Superior", "Caspian Sea", "Black Sea", "Mediterranean Sea", "Caribbean Sea", "Arctic Ocean"],
     "hint": "smallest → largest"
   },
   "2026-05-21": {
     "prompt": "Order these US presidents chronologically by when they took office",
-    "items": ["Obama", "Reagan", "Lincoln", "FDR", "JFK", "Clinton", "Teddy Roosevelt", "Nixon"],
-    "answer": ["Lincoln", "Teddy Roosevelt", "FDR", "JFK", "Nixon", "Reagan", "Clinton", "Obama"],
+    "items": ["Obama", "Reagan", "Lincoln", "FDR", "JFK", "Nixon"],
+    "answer": ["Lincoln", "FDR", "JFK", "Nixon", "Reagan", "Obama"],
     "hint": "earliest → latest"
   },
   "2026-05-22": {
     "prompt": "Order these elements by atomic number, lowest to highest",
-    "items": ["Gold", "Iron", "Carbon", "Oxygen", "Hydrogen", "Silver", "Helium", "Uranium"],
-    "answer": ["Hydrogen", "Helium", "Carbon", "Oxygen", "Iron", "Silver", "Gold", "Uranium"],
+    "items": ["Gold", "Iron", "Carbon", "Oxygen", "Hydrogen", "Uranium"],
+    "answer": ["Hydrogen", "Carbon", "Oxygen", "Iron", "Gold", "Uranium"],
     "hint": "lowest → highest"
   },
   "2026-05-23": {
     "prompt": "Order these movies by worldwide box office gross, lowest to highest",
-    "items": ["Avatar", "Titanic", "Avengers: Endgame", "Star Wars: The Force Awakens", "Frozen II", "The Lion King (2019)", "Jurassic World", "Top Gun: Maverick"],
-    "answer": ["Frozen II", "Top Gun: Maverick", "The Lion King (2019)", "Jurassic World", "Star Wars: The Force Awakens", "Titanic", "Avengers: Endgame", "Avatar"],
+    "items": ["Avatar", "Titanic", "Avengers: Endgame", "Star Wars: The Force Awakens", "The Lion King (2019)", "Top Gun: Maverick"],
+    "answer": ["Top Gun: Maverick", "The Lion King (2019)", "Star Wars: The Force Awakens", "Titanic", "Avengers: Endgame", "Avatar"],
     "hint": "lowest → highest"
   },
   "2026-05-24": {
     "prompt": "Order these dog breeds by average weight, lightest to heaviest",
-    "items": ["Golden Retriever", "Chihuahua", "German Shepherd", "Great Dane", "Beagle", "Poodle", "Bulldog", "Labrador"],
-    "answer": ["Chihuahua", "Poodle", "Beagle", "Bulldog", "Golden Retriever", "Labrador", "German Shepherd", "Great Dane"],
+    "items": ["Golden Retriever", "Chihuahua", "Great Dane", "Beagle", "Dachshund", "German Shepherd"],
+    "answer": ["Chihuahua", "Dachshund", "Beagle", "Golden Retriever", "German Shepherd", "Great Dane"],
     "hint": "lightest → heaviest"
   },
   "2026-05-25": {
     "prompt": "Order these TV shows by the year they first aired, earliest to latest",
-    "items": ["Breaking Bad", "Friends", "The Office", "Seinfeld", "Stranger Things", "Game of Thrones", "The Sopranos", "Lost"],
-    "answer": ["Seinfeld", "Friends", "The Sopranos", "Lost", "The Office", "Breaking Bad", "Game of Thrones", "Stranger Things"],
+    "items": ["Breaking Bad", "Friends", "The Office", "Seinfeld", "Stranger Things", "Game of Thrones"],
+    "answer": ["Seinfeld", "Friends", "The Office", "Breaking Bad", "Game of Thrones", "Stranger Things"],
     "hint": "earliest → latest"
   },
   "2026-05-26": {
     "prompt": "Order these foods by calories per serving, fewest to most",
-    "items": ["Avocado", "Banana", "Slice of Pizza", "Celery Stick", "Egg", "Cheeseburger", "Donut", "Caesar Salad"],
-    "answer": ["Celery Stick", "Egg", "Banana", "Avocado", "Donut", "Caesar Salad", "Slice of Pizza", "Cheeseburger"],
+    "items": ["Banana", "Slice of Pizza", "Celery Stick", "Egg", "Cheeseburger", "Donut"],
+    "answer": ["Celery Stick", "Egg", "Banana", "Donut", "Slice of Pizza", "Cheeseburger"],
     "hint": "fewest → most"
   },
   "2026-05-27": {
     "prompt": "Order these countries by number of Olympic gold medals (all time), fewest to most",
-    "items": ["USA", "Great Britain", "China", "France", "Germany", "Japan", "Australia", "Italy"],
-    "answer": ["Japan", "Australia", "Italy", "France", "China", "Germany", "Great Britain", "USA"],
+    "items": ["USA", "Great Britain", "China", "France", "Germany", "Italy"],
+    "answer": ["Italy", "France", "China", "Germany", "Great Britain", "USA"],
     "hint": "fewest → most"
   },
   "2026-05-28": {
     "prompt": "Order these songs by year of release, oldest to newest",
-    "items": ["Bohemian Rhapsody", "Billie Jean", "Smells Like Teen Spirit", "Hey Jude", "Rolling in the Deep", "Wonderwall", "Shape of You", "Blinding Lights"],
-    "answer": ["Hey Jude", "Bohemian Rhapsody", "Billie Jean", "Smells Like Teen Spirit", "Wonderwall", "Rolling in the Deep", "Shape of You", "Blinding Lights"],
+    "items": ["Bohemian Rhapsody", "Billie Jean", "Smells Like Teen Spirit", "Hey Jude", "Shape of You", "Blinding Lights"],
+    "answer": ["Hey Jude", "Bohemian Rhapsody", "Billie Jean", "Smells Like Teen Spirit", "Shape of You", "Blinding Lights"],
     "hint": "oldest → newest"
   },
   "2026-05-29": {
     "prompt": "Order these mountains by elevation, shortest to tallest",
-    "items": ["Mt. Everest", "K2", "Mt. Kilimanjaro", "Mt. Fuji", "Denali", "Mont Blanc", "Mt. Elbrus", "Matterhorn"],
-    "answer": ["Mt. Fuji", "Matterhorn", "Mont Blanc", "Mt. Elbrus", "Mt. Kilimanjaro", "Denali", "K2", "Mt. Everest"],
+    "items": ["Mt. Everest", "K2", "Mt. Kilimanjaro", "Mt. Fuji", "Denali", "Mont Blanc"],
+    "answer": ["Mt. Fuji", "Mont Blanc", "Mt. Kilimanjaro", "Denali", "K2", "Mt. Everest"],
     "hint": "shortest → tallest"
   },
   "2026-05-30": {
     "prompt": "Order these tech companies by year founded, oldest to newest",
-    "items": ["Apple", "Google", "Amazon", "Tesla", "Microsoft", "Facebook", "Netflix", "Twitter"],
-    "answer": ["Apple", "Microsoft", "Amazon", "Netflix", "Google", "Tesla", "Facebook", "Twitter"],
+    "items": ["Apple", "Google", "Amazon", "Tesla", "Microsoft", "Facebook"],
+    "answer": ["Microsoft", "Apple", "Amazon", "Google", "Tesla", "Facebook"],
     "hint": "oldest → newest"
   },
   "2026-05-31": {
     "prompt": "Order these rivers by length, shortest to longest",
-    "items": ["Amazon", "Nile", "Mississippi", "Danube", "Yangtze", "Thames", "Colorado", "Rhine"],
-    "answer": ["Thames", "Rhine", "Colorado", "Danube", "Mississippi", "Yangtze", "Amazon", "Nile"],
+    "items": ["Amazon", "Nile", "Mississippi", "Danube", "Yangtze", "Colorado"],
+    "answer": ["Colorado", "Danube", "Mississippi", "Yangtze", "Amazon", "Nile"],
     "hint": "shortest → longest"
   },
   "2026-06-01": {
-    "prompt": "Order these sports by number of players on the field per team",
-    "items": ["Baseball", "Soccer", "Tennis", "Basketball", "Football", "Ice Hockey", "Volleyball", "Cricket"],
-    "answer": ["Tennis", "Basketball", "Ice Hockey", "Volleyball", "Baseball", "Soccer", "Cricket", "Football"],
+    "prompt": "Order these sports by number of players per side during play, fewest to most",
+    "items": ["Baseball", "Soccer", "Tennis", "Basketball", "Ice Hockey", "Beach Volleyball"],
+    "answer": ["Tennis", "Beach Volleyball", "Basketball", "Ice Hockey", "Baseball", "Soccer"],
     "hint": "fewest → most"
   },
   "2026-06-02": {
     "prompt": "Order these Shakespeare plays by when they were written, earliest to latest",
-    "items": ["Hamlet", "Romeo and Juliet", "Macbeth", "A Midsummer Night's Dream", "The Tempest", "Othello", "Twelfth Night", "Julius Caesar"],
-    "answer": ["A Midsummer Night's Dream", "Romeo and Juliet", "Julius Caesar", "Hamlet", "Twelfth Night", "Othello", "Macbeth", "The Tempest"],
+    "items": ["Hamlet", "Romeo and Juliet", "Macbeth", "A Midsummer Night's Dream", "The Tempest", "Othello"],
+    "answer": ["A Midsummer Night's Dream", "Romeo and Juliet", "Hamlet", "Othello", "Macbeth", "The Tempest"],
     "hint": "earliest → latest"
   },
   "2026-06-03": {
     "prompt": "Order these desserts by typical sugar content per serving, least to most",
-    "items": ["Dark Chocolate", "Cheesecake", "Fruit Salad", "Ice Cream Sundae", "Tiramisu", "Brownie", "Cotton Candy", "Apple Pie"],
-    "answer": ["Fruit Salad", "Dark Chocolate", "Tiramisu", "Apple Pie", "Brownie", "Ice Cream Sundae", "Cheesecake", "Cotton Candy"],
+    "items": ["Dark Chocolate", "Cheesecake", "Fruit Salad", "Ice Cream Sundae", "Brownie", "Cotton Candy"],
+    "answer": ["Fruit Salad", "Dark Chocolate", "Brownie", "Ice Cream Sundae", "Cheesecake", "Cotton Candy"],
     "hint": "least → most"
   },
   "2026-06-04": {
     "prompt": "Order these video games by year of release, oldest to newest",
-    "items": ["Minecraft", "Tetris", "Super Mario Bros.", "The Legend of Zelda", "Fortnite", "GTA V", "Pac-Man", "Halo"],
-    "answer": ["Pac-Man", "Tetris", "Super Mario Bros.", "The Legend of Zelda", "Halo", "Minecraft", "GTA V", "Fortnite"],
+    "items": ["Minecraft", "Tetris", "Super Mario Bros.", "Fortnite", "GTA V", "Pac-Man"],
+    "answer": ["Pac-Man", "Tetris", "Super Mario Bros.", "Minecraft", "GTA V", "Fortnite"],
     "hint": "oldest → newest"
   },
   "2026-06-05": {
     "prompt": "Order these currencies by value against the US dollar, weakest to strongest",
-    "items": ["Japanese Yen", "British Pound", "Euro", "Indian Rupee", "Swiss Franc", "Mexican Peso", "Canadian Dollar", "Australian Dollar"],
-    "answer": ["Japanese Yen", "Indian Rupee", "Mexican Peso", "Australian Dollar", "Canadian Dollar", "Euro", "Swiss Franc", "British Pound"],
+    "items": ["Japanese Yen", "British Pound", "Euro", "Indian Rupee", "Swiss Franc", "Mexican Peso"],
+    "answer": ["Japanese Yen", "Indian Rupee", "Mexican Peso", "Euro", "Swiss Franc", "British Pound"],
     "hint": "weakest → strongest"
   },
   "2026-06-06": {
     "prompt": "Order these book series by total copies sold, fewest to most",
-    "items": ["Harry Potter", "Lord of the Rings", "Twilight", "Hunger Games", "Diary of a Wimpy Kid", "Narnia", "Goosebumps", "A Song of Ice and Fire"],
-    "answer": ["A Song of Ice and Fire", "Hunger Games", "Twilight", "Diary of a Wimpy Kid", "Lord of the Rings", "Narnia", "Goosebumps", "Harry Potter"],
+    "items": ["Harry Potter", "Twilight", "Hunger Games", "Diary of a Wimpy Kid", "Goosebumps", "A Song of Ice and Fire"],
+    "answer": ["A Song of Ice and Fire", "Hunger Games", "Twilight", "Diary of a Wimpy Kid", "Goosebumps", "Harry Potter"],
     "hint": "fewest → most"
   },
   "2026-06-07": {
     "prompt": "Order these US states by year they joined the Union, earliest to latest",
-    "items": ["California", "Texas", "New York", "Hawaii", "Alaska", "Virginia", "Ohio", "Florida"],
-    "answer": ["Virginia", "New York", "Ohio", "Florida", "Texas", "California", "Alaska", "Hawaii"],
+    "items": ["California", "Texas", "New York", "Hawaii", "Virginia", "Ohio"],
+    "answer": ["Virginia", "New York", "Ohio", "Texas", "California", "Hawaii"],
     "hint": "earliest → latest"
   },
   "2026-06-08": {
     "prompt": "Order these airports by annual passengers, fewest to most",
-    "items": ["Atlanta", "Dubai", "Tokyo Haneda", "London Heathrow", "Los Angeles", "Chicago O'Hare", "Dallas/Fort Worth", "Denver"],
-    "answer": ["Tokyo Haneda", "Denver", "Chicago O'Hare", "London Heathrow", "Los Angeles", "Dallas/Fort Worth", "Dubai", "Atlanta"],
+    "items": ["Atlanta", "Dubai", "London Heathrow", "Los Angeles", "Dallas/Fort Worth", "Denver"],
+    "answer": ["Denver", "London Heathrow", "Los Angeles", "Dallas/Fort Worth", "Dubai", "Atlanta"],
     "hint": "fewest → most"
   },
   "2026-06-09": {
     "prompt": "Order these fruits by average weight, lightest to heaviest",
-    "items": ["Watermelon", "Apple", "Grape", "Pineapple", "Blueberry", "Orange", "Coconut", "Strawberry"],
-    "answer": ["Blueberry", "Grape", "Strawberry", "Apple", "Orange", "Coconut", "Pineapple", "Watermelon"],
+    "items": ["Watermelon", "Apple", "Grape", "Pineapple", "Blueberry", "Orange"],
+    "answer": ["Blueberry", "Grape", "Orange", "Apple", "Pineapple", "Watermelon"],
     "hint": "lightest → heaviest"
   },
   "2026-06-10": {
     "prompt": "Order these world events chronologically",
-    "items": ["Moon Landing", "Fall of Berlin Wall", "World Wide Web Created", "iPhone Released", "9/11", "COVID-19 Pandemic", "Facebook Launched", "Brexit Vote"],
-    "answer": ["Moon Landing", "Fall of Berlin Wall", "World Wide Web Created", "9/11", "Facebook Launched", "iPhone Released", "Brexit Vote", "COVID-19 Pandemic"],
+    "items": ["Moon Landing", "Fall of Berlin Wall", "iPhone Released", "9/11", "COVID-19 Pandemic", "Facebook Launched"],
+    "answer": ["Moon Landing", "Fall of Berlin Wall", "9/11", "Facebook Launched", "iPhone Released", "COVID-19 Pandemic"],
     "hint": "earliest → latest"
   },
   "2026-06-11": {
     "prompt": "Order these languages by number of native speakers, fewest to most",
-    "items": ["English", "Mandarin", "Spanish", "Hindi", "Arabic", "Portuguese", "Japanese", "Bengali"],
-    "answer": ["Japanese", "Portuguese", "Bengali", "Arabic", "Hindi", "English", "Spanish", "Mandarin"],
+    "items": ["English", "Mandarin", "Spanish", "Hindi", "Arabic", "Portuguese"],
+    "answer": ["Portuguese", "Arabic", "Hindi", "English", "Spanish", "Mandarin"],
     "hint": "fewest → most"
   },
   "2026-06-12": {
     "prompt": "Order these Marvel movies by their MCU timeline, earliest to latest",
-    "items": ["Iron Man", "The Avengers", "Guardians of the Galaxy", "Black Panther", "Avengers: Endgame", "Spider-Man: Homecoming", "Captain America: Civil War", "Thor: Ragnarok"],
-    "answer": ["Iron Man", "The Avengers", "Guardians of the Galaxy", "Captain America: Civil War", "Spider-Man: Homecoming", "Thor: Ragnarok", "Black Panther", "Avengers: Endgame"],
+    "items": ["Iron Man", "The Avengers", "Guardians of the Galaxy", "Black Panther", "Avengers: Endgame", "Captain America: Civil War"],
+    "answer": ["Iron Man", "The Avengers", "Guardians of the Galaxy", "Captain America: Civil War", "Black Panther", "Avengers: Endgame"],
     "hint": "earliest → latest"
   },
   "2026-06-13": {
     "prompt": "Order these car brands by year founded, oldest to newest",
-    "items": ["Tesla", "Toyota", "Ford", "BMW", "Mercedes-Benz", "Ferrari", "Porsche", "Honda"],
-    "answer": ["Mercedes-Benz", "Ford", "BMW", "Porsche", "Ferrari", "Toyota", "Honda", "Tesla"],
+    "items": ["Tesla", "Toyota", "Ford", "BMW", "Mercedes-Benz", "Honda"],
+    "answer": ["Mercedes-Benz", "Ford", "BMW", "Toyota", "Honda", "Tesla"],
     "hint": "oldest → newest"
   },
   "2026-06-14": {
     "prompt": "Order these musical instruments by typical pitch range, lowest to highest",
-    "items": ["Tuba", "Violin", "Cello", "Flute", "Trumpet", "Bass Guitar", "Piccolo", "Saxophone"],
-    "answer": ["Tuba", "Bass Guitar", "Cello", "Saxophone", "Trumpet", "Violin", "Flute", "Piccolo"],
+    "items": ["Tuba", "Violin", "Cello", "Flute", "Trumpet", "Bass Guitar"],
+    "answer": ["Tuba", "Bass Guitar", "Cello", "Trumpet", "Violin", "Flute"],
     "hint": "lowest → highest"
   },
   "2026-06-15": {
     "prompt": "Order these fast food chains by number of locations worldwide, fewest to most",
-    "items": ["Subway", "McDonald's", "Starbucks", "Burger King", "KFC", "Domino's", "Pizza Hut", "Dunkin'"],
-    "answer": ["Pizza Hut", "Burger King", "Domino's", "Dunkin'", "KFC", "Starbucks", "McDonald's", "Subway"],
+    "items": ["Subway", "McDonald's", "Starbucks", "Burger King", "KFC", "Dunkin'"],
+    "answer": ["Dunkin'", "Burger King", "KFC", "Starbucks", "Subway", "McDonald's"],
     "hint": "fewest → most"
   },
   "2026-06-16": {
     "prompt": "Order these horror movies by Rotten Tomatoes score, lowest to highest",
-    "items": ["Get Out", "The Shining", "A Quiet Place", "Hereditary", "It (2017)", "The Conjuring", "Scream", "Midsommar"],
-    "answer": ["The Shining", "It (2017)", "Scream", "The Conjuring", "Midsommar", "A Quiet Place", "Hereditary", "Get Out"],
+    "items": ["Get Out", "The Shining", "A Quiet Place", "Hereditary", "The Conjuring", "Scream"],
+    "answer": ["Scream", "The Shining", "The Conjuring", "Hereditary", "A Quiet Place", "Get Out"],
     "hint": "lowest → highest"
   }
 }

@@ -13,7 +13,7 @@ function getTimeToMidnight() {
   return { hours, minutes, seconds };
 }
 
-export default function WinScreen({ gameStatus, attempts, answer, prompt, puzzleNumber, generateShareText }) {
+export default function WinScreen({ gameStatus, attempts, answer, lastGuess, prompt, puzzleNumber, generateShareText }) {
   const [copied, setCopied] = useState(false);
   const [countdown, setCountdown] = useState(getTimeToMidnight());
   const [showContent, setShowContent] = useState(false);
@@ -95,17 +95,49 @@ export default function WinScreen({ gameStatus, attempts, answer, prompt, puzzle
           ))}
         </div>
 
-        <div className={styles.answerSection}>
-          <p className={styles.answerLabel}>Correct order</p>
-          <div className={styles.answerList}>
-            {answer.map((item, i) => (
-              <div key={item} className={styles.answerItem}>
-                <span className={styles.answerIndex}>{i + 1}</span>
-                <span className={styles.answerText}>{item}</span>
+        {won ? (
+          <div className={styles.comparisonSection} style={{ gridTemplateColumns: '1fr' }}>
+            <div className={styles.comparisonColumn}>
+              <p className={styles.answerLabel}>Correct order</p>
+              <div className={styles.answerList}>
+                {answer.map((item, i) => (
+                  <div key={item} className={styles.answerItem}>
+                    <span className={`${styles.answerIndex} ${styles.indexCorrect}`}>{i + 1}</span>
+                    <span className={styles.answerText}>{item}</span>
+                  </div>
+                ))}
               </div>
-            ))}
+            </div>
           </div>
-        </div>
+        ) : (
+          <div className={styles.comparisonSection}>
+            <div className={styles.comparisonColumn}>
+              <p className={styles.answerLabel}>Your last guess</p>
+              <div className={styles.answerList}>
+                {lastGuess.map((item, i) => {
+                  const isCorrect = item === answer[i];
+                  return (
+                    <div key={`guess-${i}`} className={styles.answerItem}>
+                      <span className={`${styles.answerIndex} ${isCorrect ? styles.indexCorrect : styles.indexWrong}`}>{i + 1}</span>
+                      <span className={`${styles.answerText} ${isCorrect ? '' : styles.textWrong}`}>{item}</span>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+            <div className={styles.comparisonColumn}>
+              <p className={styles.answerLabel}>Correct order</p>
+              <div className={styles.answerList}>
+                {answer.map((item, i) => (
+                  <div key={item} className={styles.answerItem}>
+                    <span className={`${styles.answerIndex} ${styles.indexCorrect}`}>{i + 1}</span>
+                    <span className={styles.answerText}>{item}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        )}
 
         <button
           className={`${styles.shareButton} ${copied ? styles.copied : ''}`}

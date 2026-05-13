@@ -24,6 +24,7 @@ export default function App() {
     initialized,
     dateKey,
     puzzleNumber,
+    lastGuessOrder,
     reorderItems,
     submitGuess,
     generateShareText,
@@ -113,7 +114,7 @@ export default function App() {
           items={items}
           feedback={feedback}
           showFeedback={showFeedback}
-          disabled={isGameOver || showFeedback}
+          disabled={isGameOver}
           onReorder={reorderItems}
         />
 
@@ -124,7 +125,7 @@ export default function App() {
             disabled={showFeedback}
           >
             {showFeedback
-              ? 'Checking...'
+              ? 'Drag to rearrange'
               : attemptNumber === 0
                 ? 'Lock it in'
                 : `Try again (${maxAttempts - attemptNumber} left)`}
@@ -137,6 +138,7 @@ export default function App() {
           gameStatus={gameStatus}
           attempts={attempts}
           answer={puzzle.answer}
+          lastGuess={lastGuessOrder}
           prompt={puzzle.prompt}
           puzzleNumber={puzzleNumber}
           generateShareText={generateShareText}

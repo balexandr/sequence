@@ -49,6 +49,7 @@ export function useGameState() {
 
   const [items, setItems] = useState([]);
   const [attempts, setAttempts] = useState([]);
+  const [guessOrders, setGuessOrders] = useState([]);
   const [attemptNumber, setAttemptNumber] = useState(0);
   const [gameStatus, setGameStatus] = useState('playing'); // 'playing' | 'won' | 'lost'
   const [feedback, setFeedback] = useState(null); // array of 'correct'|'wrong' or null
@@ -66,6 +67,7 @@ export function useGameState() {
     if (saved) {
       setItems(saved.items);
       setAttempts(saved.attempts);
+      setGuessOrders(saved.guessOrders || []);
       setAttemptNumber(saved.attemptNumber);
       setGameStatus(saved.gameStatus);
       setFeedback(saved.feedback);
@@ -88,14 +90,20 @@ export function useGameState() {
       dateKey,
       items,
       attempts,
+      guessOrders,
       attemptNumber,
       gameStatus,
       feedback,
     });
-  }, [items, attempts, attemptNumber, gameStatus, feedback, initialized]);
+  }, [items, attempts, guessOrders, attemptNumber, gameStatus, feedback, initialized]);
 
   const reorderItems = useCallback((newOrder) => {
-    if (gameStatus !== 'playing' || showFeedback) return;
+    if (gameStatus !== 'playing') return;
+    if (showFeedback) {
+      setShowFeedback(false);
+      setFeedback(null);
+      setAttemptNumber((n) => n);
+    }
     setItems(newOrder);
   }, [gameStatus, showFeedback]);
 
@@ -108,11 +116,13 @@ export function useGameState() {
 
     const isCorrect = result.every((r) => r === 'correct');
     const newAttempts = [...attempts, result];
+    const newGuessOrders = [...guessOrders, [...items]];
     const newAttemptNumber = attemptNumber + 1;
 
     setFeedback(result);
     setShowFeedback(true);
     setAttempts(newAttempts);
+    setGuessOrders(newGuessOrders);
 
     if (isCorrect) {
       setGameStatus('won');
@@ -121,14 +131,9 @@ export function useGameState() {
       setGameStatus('lost');
       setAttemptNumber(newAttemptNumber);
     } else {
-      // After showing feedback, allow next attempt
-      setTimeout(() => {
-        setShowFeedback(false);
-        setFeedback(null);
-        setAttemptNumber(newAttemptNumber);
-      }, 1500);
+      setAttemptNumber(newAttemptNumber);
     }
-  }, [puzzle, items, attempts, attemptNumber, gameStatus, showFeedback]);
+  }, [puzzle, items, attempts, guessOrders, attemptNumber, gameStatus, showFeedback]);
 
   const generateShareText = useCallback(() => {
     if (!puzzle) return '';
@@ -153,6 +158,7 @@ export function useGameState() {
     initialized,
     dateKey,
     puzzleNumber,
+    lastGuessOrder: guessOrders.length > 0 ? guessOrders[guessOrders.length - 1] : items,
     reorderItems,
     submitGuess,
     generateShareText,

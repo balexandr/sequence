@@ -130,8 +130,6 @@
 .gridCell:nth-child(4) { animation-delay: 0.2s; }
 .gridCell:nth-child(5) { animation-delay: 0.25s; }
 .gridCell:nth-child(6) { animation-delay: 0.3s; }
-.gridCell:nth-child(7) { animation-delay: 0.35s; }
-.gridCell:nth-child(8) { animation-delay: 0.4s; }
 
 .gridCorrect {
   background: var(--correct);
@@ -141,22 +139,28 @@
   background: var(--wrong);
 }
 
-.answerSection {
-  text-align: left;
+.comparisonSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
   margin-bottom: 24px;
+}
+
+.comparisonColumn {
+  text-align: left;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
-  padding: 14px 16px;
+  padding: 12px 10px;
 }
 
 .answerLabel {
-  font-size: 0.7rem;
+  font-size: 0.65rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--text-dim);
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .answerList {
@@ -168,28 +172,40 @@
 .answerItem {
   display: flex;
   align-items: center;
-  gap: 10px;
-  padding: 4px 0;
+  gap: 6px;
+  padding: 3px 0;
 }
 
 .answerIndex {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 22px;
-  height: 22px;
+  width: 18px;
+  height: 18px;
   border-radius: 50%;
-  background: var(--correct);
-  color: #fff;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   font-weight: 700;
   flex-shrink: 0;
+  color: #fff;
+}
+
+.indexCorrect {
+  background: var(--correct);
+}
+
+.indexWrong {
+  background: var(--wrong);
 }
 
 .answerText {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   font-weight: 500;
   color: var(--text);
+  line-height: 1.2;
+}
+
+.textWrong {
+  color: var(--text-secondary);
 }
 
 .shareButton {

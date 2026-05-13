@@ -4,7 +4,7 @@ export default function ScoreBar({ feedback, attemptNumber, maxAttempts }) {
   return (
     <div className={styles.container}>
       <div className={styles.pips}>
-        {Array.from({ length: 8 }).map((_, i) => {
+        {Array.from({ length: 6 }).map((_, i) => {
           const status = feedback ? feedback[i] : null;
           return (
             <div

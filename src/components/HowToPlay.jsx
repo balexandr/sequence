@@ -5,7 +5,7 @@ export default function HowToPlay({ onClose }) {
     <div className={styles.overlay} onClick={onClose}>
       <div className={styles.modal} onClick={(e) => e.stopPropagation()}>
         <h2 className={styles.title}>How to Play</h2>
-        <p className={styles.intro}>Put the 8 items in the correct order based on the prompt.</p>
+        <p className={styles.intro}>Put the 6 items in the correct order based on the prompt.</p>
 
         <div className={styles.steps}>
           <div className={styles.step}>
@@ -41,12 +41,8 @@ export default function HowToPlay({ onClose }) {
               <span className={styles.cellGreen} />
               <span className={styles.cellGreen} />
               <span className={styles.cellRed} />
-              <span className={styles.cellGreen} />
-              <span className={styles.cellRed} />
             </div>
             <div className={styles.exampleRow}>
-              <span className={styles.cellGreen} />
-              <span className={styles.cellGreen} />
               <span className={styles.cellGreen} />
               <span className={styles.cellGreen} />
               <span className={styles.cellGreen} />
