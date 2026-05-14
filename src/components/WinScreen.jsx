@@ -32,6 +32,14 @@ export default function WinScreen({ gameStatus, attempts, answer, lastGuess, pro
 
   const handleShare = async () => {
     const text = generateShareText();
+    if (navigator.share) {
+      try {
+        await navigator.share({ text });
+        return;
+      } catch {
+        // User cancelled or share failed — fall through to clipboard
+      }
+    }
     try {
       await navigator.clipboard.writeText(text);
     } catch {
