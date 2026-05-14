@@ -21,7 +21,7 @@
   background: var(--bg-surface);
   border: 1px solid var(--border);
   border-radius: var(--radius-xl);
-  padding: 32px 24px 24px;
+  padding: 24px 20px 18px;
   max-width: 380px;
   width: 100%;
   text-align: center;
@@ -81,13 +81,13 @@
 }
 
 .resultHeader {
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .emoji {
-  font-size: 2.5rem;
+  font-size: 2rem;
   display: block;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 
 .title {
@@ -107,9 +107,9 @@
 .grid {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 3px;
   align-items: center;
-  margin-bottom: 24px;
+  margin-bottom: 14px;
 }
 
 .gridRow {
@@ -118,8 +118,8 @@
 }
 
 .gridCell {
-  width: 28px;
-  height: 28px;
+  width: 24px;
+  height: 24px;
   border-radius: 6px;
   animation: bounceIn 0.3s ease both;
 }
@@ -139,11 +139,44 @@
   background: var(--wrong);
 }
 
+.statsRow {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 14px;
+  padding: 10px 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.statItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  min-width: 48px;
+}
+
+.statValue {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: var(--text);
+  line-height: 1;
+}
+
+.statLabel {
+  font-size: 0.55rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-dim);
+}
+
 .comparisonSection {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10px;
-  margin-bottom: 24px;
+  gap: 8px;
+  margin-bottom: 16px;
 }
 
 .comparisonColumn {
@@ -151,7 +184,7 @@
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
-  padding: 12px 10px;
+  padding: 10px 8px;
 }
 
 .answerLabel {
@@ -210,15 +243,15 @@
 
 .shareButton {
   width: 100%;
-  padding: 14px;
+  padding: 12px;
   background: var(--accent);
   color: #fff;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   font-weight: 700;
   border-radius: var(--radius-md);
   transition: background 0.15s, transform 0.1s;
   box-shadow: 0 2px 8px rgba(255, 107, 74, 0.2);
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
 .shareButton:hover {

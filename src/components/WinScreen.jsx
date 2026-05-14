@@ -13,7 +13,7 @@ function getTimeToMidnight() {
   return { hours, minutes, seconds };
 }
 
-export default function WinScreen({ gameStatus, attempts, answer, lastGuess, prompt, puzzleNumber, generateShareText }) {
+export default function WinScreen({ gameStatus, attempts, answer, lastGuess, prompt, puzzleNumber, generateShareText, stats, winPct }) {
   const [copied, setCopied] = useState(false);
   const [countdown, setCountdown] = useState(getTimeToMidnight());
   const [showContent, setShowContent] = useState(false);
@@ -101,6 +101,25 @@ export default function WinScreen({ gameStatus, attempts, answer, lastGuess, pro
               ))}
             </div>
           ))}
+        </div>
+
+        <div className={styles.statsRow}>
+          <div className={styles.statItem}>
+            <span className={styles.statValue}>{stats.gamesPlayed}</span>
+            <span className={styles.statLabel}>Played</span>
+          </div>
+          <div className={styles.statItem}>
+            <span className={styles.statValue}>{winPct}</span>
+            <span className={styles.statLabel}>Win %</span>
+          </div>
+          <div className={styles.statItem}>
+            <span className={styles.statValue}>{stats.currentStreak}</span>
+            <span className={styles.statLabel}>Streak</span>
+          </div>
+          <div className={styles.statItem}>
+            <span className={styles.statValue}>{stats.maxStreak}</span>
+            <span className={styles.statLabel}>Max</span>
+          </div>
         </div>
 
         {won ? (

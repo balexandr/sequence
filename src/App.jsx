@@ -142,6 +142,8 @@ export default function App() {
           prompt={puzzle.prompt}
           puzzleNumber={puzzleNumber}
           generateShareText={generateShareText}
+          stats={stats}
+          winPct={winPct}
         />
       )}
 
