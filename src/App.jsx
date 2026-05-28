@@ -34,6 +34,17 @@ export default function App() {
 
   const [showHowToPlay, setShowHowToPlay] = useState(false);
   const [showStats, setShowStats] = useState(false);
+  const currentYear = new Date().getFullYear();
+
+  const footer = (
+    <footer className={styles.footer}>
+      <span>© {currentYear} NoodleGames.co</span>
+      <span className={styles.footerDot}>•</span>
+      <a href="https://noodlegames.co" target="_blank" rel="noopener noreferrer" className={styles.footerLink}>
+        noodlegames.co
+      </a>
+    </footer>
+  );
 
   useEffect(() => {
     try {
@@ -70,6 +81,7 @@ export default function App() {
           <p>No puzzle for today yet.</p>
           <p className={styles.muted}>Check back tomorrow!</p>
         </div>
+        {footer}
       </div>
     );
   }
@@ -171,6 +183,8 @@ export default function App() {
           onClose={() => setShowStats(false)}
         />
       )}
+
+      {footer}
     </div>
   );
 }

@@ -40,10 +40,10 @@
   padding: 0 10px;
   font-size: 0.75rem;
   font-weight: 700;
-  color: var(--accent);
-  border: 1px solid color-mix(in srgb, var(--accent) 45%, transparent);
+  color: var(--text-secondary);
+  border: 1px solid var(--border);
   border-radius: 999px;
-  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  background: color-mix(in srgb, var(--surface) 70%, transparent);
   overflow: hidden;
   isolation: isolate;
 }
@@ -53,7 +53,7 @@
   position: absolute;
   inset: -10px;
   border-radius: inherit;
-  background: radial-gradient(circle at 25% 35%, color-mix(in srgb, var(--accent) 40%, transparent), transparent 58%);
+  background: radial-gradient(circle at 25% 35%, color-mix(in srgb, #fff 16%, transparent), transparent 58%);
   opacity: 0.45;
   transform: translateX(-16%) scale(0.95);
   animation: bubbleFloat 4.2s ease-in-out infinite;
@@ -159,4 +159,30 @@
   color: var(--text-secondary);
   font-size: 0.9rem;
   font-weight: 400;
+}
+
+.footer {
+  margin-top: 20px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: var(--text-dim);
+  font-size: 0.78rem;
+}
+
+.footerDot {
+  opacity: 0.7;
+}
+
+.footerLink {
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.footerLink:hover {
+  color: var(--accent);
 }
