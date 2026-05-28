@@ -89,7 +89,18 @@ export default function App() {
             onClick={() => setShowStats(true)}
             aria-label="Statistics"
           >
-            📊
+            <svg
+              className={styles.statsIcon}
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+            >
+              <path d="M4 20H20" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+              <rect x="6" y="11" width="2.8" height="7" rx="1" fill="currentColor" />
+              <rect x="10.6" y="7" width="2.8" height="11" rx="1" fill="currentColor" opacity="0.9" />
+              <rect x="15.2" y="4" width="2.8" height="14" rx="1" fill="currentColor" opacity="0.8" />
+            </svg>
           </button>
           <button
             className={styles.iconButton}
