@@ -24,7 +24,9 @@ export default function ScoreBar({ feedback, attemptNumber, maxAttempts }) {
             className={`${styles.dot} ${
               i < attemptNumber ? styles.used : i === attemptNumber ? styles.current : ''
             }`}
-          />
+          >
+            {i < attemptNumber ? i + 1 : null}
+          </div>
         ))}
       </div>
     </div>

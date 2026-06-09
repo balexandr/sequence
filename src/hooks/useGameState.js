@@ -6,11 +6,7 @@ const MAX_ATTEMPTS = 3;
 const EPOCH = '2026-05-12';
 
 function getTodayKey() {
-  const d = new Date();
-  const year = d.getFullYear();
-  const month = String(d.getMonth() + 1).padStart(2, '0');
-  const day = String(d.getDate()).padStart(2, '0');
-  return `${year}-${month}-${day}`;
+  return new Intl.DateTimeFormat('en-CA', { timeZone: 'America/New_York' }).format(new Date());
 }
 
 function shuffleArray(arr) {

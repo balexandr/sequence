@@ -1,34 +1,51 @@
 .promptBox {
-  text-align: center;
-  padding: 20px 16px 12px;
+  position: relative;
+  padding: 16px 18px 14px 20px;
+  margin: 8px 0 4px;
+  background: rgba(255, 107, 74, 0.05);
+  border: 1px solid rgba(255, 107, 74, 0.15);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+
+/* Bold orange left-stripe accent */
+.promptBox::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 3px;
+  background: linear-gradient(180deg, var(--accent) 0%, rgba(255, 107, 74, 0.3) 100%);
+  border-radius: 0 2px 2px 0;
 }
 
 .prompt {
-  font-size: 1rem;
-  font-weight: 600;
+  font-size: 1.05rem;
+  font-weight: 700;
   line-height: 1.5;
   color: var(--text);
-  letter-spacing: -0.01em;
+  letter-spacing: -0.02em;
 }
 
 .hintRow {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  margin-top: 8px;
-  padding: 4px 14px;
-  background: var(--surface);
-  border: 1px solid var(--border);
+  margin-top: 10px;
+  padding: 4px 12px 4px 10px;
+  background: rgba(255, 107, 74, 0.08);
+  border: 1px solid rgba(255, 107, 74, 0.2);
   border-radius: 100px;
 }
 
 .hintArrow {
   color: var(--accent);
-  font-size: 0.7rem;
+  font-size: 0.65rem;
 }
 
 .hint {
   font-size: 0.78rem;
-  color: var(--text-secondary);
-  font-weight: 500;
+  font-weight: 600;
+  color: var(--accent);
+  letter-spacing: 0.01em;
+  opacity: 0.85;
 }

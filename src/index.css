@@ -7,23 +7,24 @@
 }
 
 :root {
-  --bg: #0d0d14;
-  --bg-surface: #13131d;
-  --surface: #1a1a28;
-  --surface-hover: #222233;
-  --surface-elevated: #2a2a3d;
-  --text: #ededf0;
-  --text-secondary: #8e8ea3;
-  --text-dim: #555568;
+  --bg: #0b0b12;
+  --bg-surface: #111119;
+  --surface: #17172200;
+  --surface-solid: #17172280;
+  --surface-hover: #1e1e2e;
+  --surface-elevated: #232334;
+  --text: #eeeef2;
+  --text-secondary: #8888a0;
+  --text-dim: #44445a;
   --accent: #ff6b4a;
   --accent-hover: #ff8266;
-  --accent-subtle: rgba(255, 107, 74, 0.12);
+  --accent-subtle: rgba(255, 107, 74, 0.1);
   --correct: #4ade80;
   --correct-subtle: rgba(74, 222, 128, 0.1);
   --wrong: #fb7185;
   --wrong-subtle: rgba(251, 113, 133, 0.1);
   --border: rgba(255, 255, 255, 0.07);
-  --border-hover: rgba(255, 255, 255, 0.12);
+  --border-hover: rgba(255, 255, 255, 0.13);
   --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
   --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
   --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.5);
@@ -36,7 +37,6 @@
 
 html, body {
   height: 100%;
-  background: var(--bg);
   color: var(--text);
   font-family: var(--font);
   -webkit-font-smoothing: antialiased;
@@ -45,7 +45,16 @@ html, body {
 }
 
 body {
-  background: linear-gradient(180deg, var(--bg) 0%, #0a0a12 100%);
+  background-color: #0b0b12;
+  background-image:
+    /* Warm accent glow bleeding from top */
+    radial-gradient(ellipse at 50% -8%, rgba(255, 107, 74, 0.1) 0%, transparent 52%),
+    /* Horizontal ruled-line chart grid */
+    repeating-linear-gradient(
+      0deg,
+      transparent 0px, transparent 39px,
+      rgba(255, 255, 255, 0.028) 39px, rgba(255, 255, 255, 0.028) 40px
+    );
   background-attachment: fixed;
 }
 
@@ -63,46 +72,46 @@ button {
   outline: none;
 }
 
-/* Global keyframes */
+/* ── Global keyframes ─────────────────────── */
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(8px); }
-  to { opacity: 1; transform: translateY(0); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
 @keyframes slideUp {
   from { opacity: 0; transform: translateY(30px) scale(0.97); }
-  to { opacity: 1; transform: translateY(0) scale(1); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
 }
 
 @keyframes fadeInOverlay {
   from { opacity: 0; }
-  to { opacity: 1; }
-}
-
-@keyframes confettiBurst {
-  0% { transform: translateY(0) rotate(0deg) scale(1); opacity: 1; }
-  100% { transform: translateY(-120px) rotate(720deg) scale(0); opacity: 0; }
+  to   { opacity: 1; }
 }
 
 @keyframes revealCorrect {
-  0% { border-color: var(--border); background: var(--surface); }
-  40% { border-color: var(--correct); background: var(--correct-subtle); transform: scale(1.03); }
+  0%   { border-color: var(--border); background: transparent; }
+  40%  { border-color: var(--correct); background: var(--correct-subtle); transform: scale(1.02); }
   100% { border-color: var(--correct); background: var(--correct-subtle); transform: scale(1); }
 }
 
 @keyframes revealWrong {
-  0% { border-color: var(--border); background: var(--surface); transform: translateX(0); }
-  15% { border-color: var(--wrong); background: var(--wrong-subtle); transform: translateX(-5px); }
-  30% { transform: translateX(5px); }
-  45% { transform: translateX(-4px); }
-  60% { transform: translateX(4px); }
-  75% { transform: translateX(-2px); }
+  0%   { border-color: var(--border); background: transparent; }
+  15%  { border-color: var(--wrong); background: var(--wrong-subtle); transform: translateX(-5px); }
+  30%  { transform: translateX(5px); }
+  45%  { transform: translateX(-4px); }
+  60%  { transform: translateX(4px); }
+  75%  { transform: translateX(-2px); }
   100% { border-color: var(--wrong); background: var(--wrong-subtle); transform: translateX(0); }
 }
 
 @keyframes bounceIn {
-  0% { transform: scale(0.3); opacity: 0; }
-  50% { transform: scale(1.05); }
-  70% { transform: scale(0.95); }
+  0%   { transform: scale(0.3); opacity: 0; }
+  50%  { transform: scale(1.05); }
+  70%  { transform: scale(0.95); }
   100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes bubbleFloat {
+  0%, 100% { transform: translateX(-16%) scale(0.95); opacity: 0.4; }
+  50%       { transform: translateX(12%) scale(1.04); opacity: 0.65; }
 }

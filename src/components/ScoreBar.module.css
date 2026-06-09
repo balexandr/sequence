@@ -1,57 +1,88 @@
 .container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 10px 0 14px;
-  gap: 16px;
+  gap: 14px;
+  padding: 12px 0 14px;
 }
 
+/* ── 6-position result bar ─────────────────── */
 .pips {
   display: flex;
-  gap: 5px;
+  gap: 4px;
   flex: 1;
 }
 
 .pip {
-  height: 6px;
+  height: 8px;
   flex: 1;
-  border-radius: 3px;
-  background: var(--surface);
+  border-radius: 4px;
+  background: rgba(255,255,255,0.05);
   border: 1px solid var(--border);
-  transition: background 0.3s, border-color 0.3s;
+  transition: background 0.35s, border-color 0.35s, box-shadow 0.35s;
 }
 
 .correct {
   background: var(--correct);
   border-color: var(--correct);
+  box-shadow: 0 0 8px rgba(74,222,128,0.3);
 }
 
 .wrong {
   background: var(--wrong);
   border-color: var(--wrong);
+  box-shadow: 0 0 8px rgba(251,113,133,0.2);
 }
 
+/* ── Attempt steps ─────────────────────────── */
 .attempts {
   display: flex;
-  gap: 6px;
   align-items: center;
+  gap: 0;
+  position: relative;
+}
+
+/* Connecting line behind dots */
+.attempts::before {
+  content: '';
+  position: absolute;
+  left: 10px; right: 10px;
+  top: 50%; transform: translateY(-50%);
+  height: 1.5px;
+  background: var(--border);
+  z-index: 0;
 }
 
 .dot {
-  width: 8px;
-  height: 8px;
+  position: relative;
+  z-index: 1;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
-  background: var(--surface);
-  border: 1.5px solid var(--border-hover);
-  transition: background 0.3s, border-color 0.3s, box-shadow 0.3s;
+  background: var(--bg-surface);
+  border: 2px solid var(--border-hover);
+  transition: background 0.25s, border-color 0.25s, box-shadow 0.25s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.55rem;
+  font-weight: 800;
+  color: transparent;
+}
+
+/* Gap between dots for the connecting line to show through */
+.dot + .dot {
+  margin-left: 6px;
 }
 
 .current {
   border-color: var(--accent);
-  box-shadow: 0 0 0 2px var(--accent-subtle);
+  background: rgba(255,107,74,0.12);
+  box-shadow: 0 0 0 3px rgba(255,107,74,0.15);
 }
 
 .used {
   background: var(--accent);
   border-color: var(--accent);
+  color: #fff;
+  box-shadow: 0 0 6px rgba(255,107,74,0.35);
 }
