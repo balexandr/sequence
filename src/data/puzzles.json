@@ -214,5 +214,11 @@
     "items": ["Get Out", "The Shining", "A Quiet Place", "Hereditary", "The Conjuring", "Scream"],
     "answer": ["Scream", "The Shining", "The Conjuring", "Hereditary", "A Quiet Place", "Get Out"],
     "hint": "lowest → highest"
+  },
+  "2026-06-17": {
+    "prompt": "Order these animals by gestation period, shortest to longest",
+    "items": ["Lion", "Elephant", "Rabbit", "Horse", "Cat", "Hamster"],
+    "answer": ["Hamster", "Rabbit", "Cat", "Lion", "Horse", "Elephant"],
+    "hint": "shortest → longest"
   }
 }
