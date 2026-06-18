@@ -1,224 +1,4402 @@
 {
   "2026-05-12": {
     "prompt": "Order these US cities by population, smallest to largest",
-    "items": ["Phoenix", "San Antonio", "Philadelphia", "San Diego", "Dallas", "Houston"],
-    "answer": ["Dallas", "San Diego", "San Antonio", "Philadelphia", "Phoenix", "Houston"],
+    "items": [
+      "Phoenix",
+      "San Antonio",
+      "Philadelphia",
+      "San Diego",
+      "Dallas",
+      "Houston"
+    ],
+    "answer": [
+      "Dallas",
+      "San Diego",
+      "San Antonio",
+      "Philadelphia",
+      "Phoenix",
+      "Houston"
+    ],
     "hint": "smallest → largest"
   },
   "2026-05-13": {
     "prompt": "Order these animated Disney movies by release year, oldest to newest",
-    "items": ["Frozen", "The Lion King", "Moana", "Aladdin", "Finding Nemo", "The Little Mermaid"],
-    "answer": ["The Little Mermaid", "Aladdin", "The Lion King", "Finding Nemo", "Frozen", "Moana"],
+    "items": [
+      "Frozen",
+      "The Lion King",
+      "Moana",
+      "Aladdin",
+      "Finding Nemo",
+      "The Little Mermaid"
+    ],
+    "answer": [
+      "The Little Mermaid",
+      "Aladdin",
+      "The Lion King",
+      "Finding Nemo",
+      "Frozen",
+      "Moana"
+    ],
     "hint": "oldest → newest"
   },
   "2026-05-14": {
     "prompt": "Order these movies by release year, oldest to newest",
-    "items": ["The Matrix", "Jurassic Park", "Inception", "Titanic", "Jaws", "The Dark Knight"],
-    "answer": ["Jaws", "Jurassic Park", "Titanic", "The Matrix", "The Dark Knight", "Inception"],
+    "items": [
+      "The Matrix",
+      "Jurassic Park",
+      "Inception",
+      "Titanic",
+      "Jaws",
+      "The Dark Knight"
+    ],
+    "answer": [
+      "Jaws",
+      "Jurassic Park",
+      "Titanic",
+      "The Matrix",
+      "The Dark Knight",
+      "Inception"
+    ],
     "hint": "oldest → newest"
   },
   "2026-05-15": {
     "prompt": "Order these countries by total area, smallest to largest",
-    "items": ["India", "Australia", "Brazil", "Canada", "Russia", "United States"],
-    "answer": ["India", "Australia", "Brazil", "United States", "Canada", "Russia"],
+    "items": [
+      "India",
+      "Australia",
+      "Brazil",
+      "Canada",
+      "Russia",
+      "United States"
+    ],
+    "answer": [
+      "India",
+      "Australia",
+      "Brazil",
+      "United States",
+      "Canada",
+      "Russia"
+    ],
     "hint": "smallest → largest"
   },
   "2026-05-16": {
     "prompt": "Order these animals by average lifespan, shortest to longest",
-    "items": ["Elephant", "Tortoise", "Dog", "Parrot", "Horse", "Human"],
-    "answer": ["Dog", "Horse", "Parrot", "Elephant", "Human", "Tortoise"],
+    "items": [
+      "Elephant",
+      "Tortoise",
+      "Dog",
+      "Parrot",
+      "Horse",
+      "Human"
+    ],
+    "answer": [
+      "Dog",
+      "Horse",
+      "Parrot",
+      "Elephant",
+      "Human",
+      "Tortoise"
+    ],
     "hint": "shortest → longest"
   },
   "2026-05-17": {
     "prompt": "Order these inventions chronologically, earliest to latest",
-    "items": ["Telephone", "Internet", "Printing Press", "Light Bulb", "Television", "Airplane"],
-    "answer": ["Printing Press", "Telephone", "Light Bulb", "Airplane", "Television", "Internet"],
+    "items": [
+      "Telephone",
+      "Internet",
+      "Printing Press",
+      "Light Bulb",
+      "Television",
+      "Airplane"
+    ],
+    "answer": [
+      "Printing Press",
+      "Telephone",
+      "Light Bulb",
+      "Airplane",
+      "Television",
+      "Internet"
+    ],
     "hint": "earliest → latest"
   },
   "2026-05-18": {
     "prompt": "Order these structures by height, shortest to tallest",
-    "items": ["Eiffel Tower", "Empire State Building", "Burj Khalifa", "Big Ben", "One World Trade Center", "CN Tower"],
-    "answer": ["Big Ben", "Eiffel Tower", "Empire State Building", "One World Trade Center", "CN Tower", "Burj Khalifa"],
+    "items": [
+      "Eiffel Tower",
+      "Empire State Building",
+      "Burj Khalifa",
+      "Big Ben",
+      "One World Trade Center",
+      "CN Tower"
+    ],
+    "answer": [
+      "Big Ben",
+      "Eiffel Tower",
+      "Empire State Building",
+      "One World Trade Center",
+      "CN Tower",
+      "Burj Khalifa"
+    ],
     "hint": "shortest → tallest"
   },
   "2026-05-19": {
     "prompt": "Order these NBA players by career points scored, fewest to most",
-    "items": ["Kobe Bryant", "LeBron James", "Michael Jordan", "Kareem Abdul-Jabbar", "Shaquille O'Neal", "Kevin Durant"],
-    "answer": ["Shaquille O'Neal", "Kevin Durant", "Michael Jordan", "Kobe Bryant", "Kareem Abdul-Jabbar", "LeBron James"],
+    "items": [
+      "Kobe Bryant",
+      "LeBron James",
+      "Michael Jordan",
+      "Kareem Abdul-Jabbar",
+      "Shaquille O'Neal",
+      "Kevin Durant"
+    ],
+    "answer": [
+      "Shaquille O'Neal",
+      "Kevin Durant",
+      "Michael Jordan",
+      "Kobe Bryant",
+      "Kareem Abdul-Jabbar",
+      "LeBron James"
+    ],
     "hint": "fewest → most"
   },
   "2026-05-20": {
     "prompt": "Order these bodies of water by surface area, smallest to largest",
-    "items": ["Lake Superior", "Caspian Sea", "Black Sea", "Mediterranean Sea", "Caribbean Sea", "Arctic Ocean"],
-    "answer": ["Lake Superior", "Caspian Sea", "Black Sea", "Mediterranean Sea", "Caribbean Sea", "Arctic Ocean"],
+    "items": [
+      "Lake Superior",
+      "Caspian Sea",
+      "Black Sea",
+      "Mediterranean Sea",
+      "Caribbean Sea",
+      "Arctic Ocean"
+    ],
+    "answer": [
+      "Lake Superior",
+      "Caspian Sea",
+      "Black Sea",
+      "Mediterranean Sea",
+      "Caribbean Sea",
+      "Arctic Ocean"
+    ],
     "hint": "smallest → largest"
   },
   "2026-05-21": {
     "prompt": "Order these US presidents chronologically by when they took office",
-    "items": ["Obama", "Reagan", "Lincoln", "FDR", "JFK", "Nixon"],
-    "answer": ["Lincoln", "FDR", "JFK", "Nixon", "Reagan", "Obama"],
+    "items": [
+      "Obama",
+      "Reagan",
+      "Lincoln",
+      "FDR",
+      "JFK",
+      "Nixon"
+    ],
+    "answer": [
+      "Lincoln",
+      "FDR",
+      "JFK",
+      "Nixon",
+      "Reagan",
+      "Obama"
+    ],
     "hint": "earliest → latest"
   },
   "2026-05-22": {
     "prompt": "Order these elements by atomic number, lowest to highest",
-    "items": ["Gold", "Iron", "Carbon", "Oxygen", "Hydrogen", "Uranium"],
-    "answer": ["Hydrogen", "Carbon", "Oxygen", "Iron", "Gold", "Uranium"],
+    "items": [
+      "Gold",
+      "Iron",
+      "Carbon",
+      "Oxygen",
+      "Hydrogen",
+      "Uranium"
+    ],
+    "answer": [
+      "Hydrogen",
+      "Carbon",
+      "Oxygen",
+      "Iron",
+      "Gold",
+      "Uranium"
+    ],
     "hint": "lowest → highest"
   },
   "2026-05-23": {
     "prompt": "Order these movies by worldwide box office gross, lowest to highest",
-    "items": ["Avatar", "Titanic", "Avengers: Endgame", "Star Wars: The Force Awakens", "The Lion King (2019)", "Top Gun: Maverick"],
-    "answer": ["Top Gun: Maverick", "The Lion King (2019)", "Star Wars: The Force Awakens", "Titanic", "Avengers: Endgame", "Avatar"],
+    "items": [
+      "Avatar",
+      "Titanic",
+      "Avengers: Endgame",
+      "Star Wars: The Force Awakens",
+      "The Lion King (2019)",
+      "Top Gun: Maverick"
+    ],
+    "answer": [
+      "Top Gun: Maverick",
+      "The Lion King (2019)",
+      "Star Wars: The Force Awakens",
+      "Titanic",
+      "Avengers: Endgame",
+      "Avatar"
+    ],
     "hint": "lowest → highest"
   },
   "2026-05-24": {
     "prompt": "Order these dog breeds by average weight, lightest to heaviest",
-    "items": ["Golden Retriever", "Chihuahua", "Great Dane", "Beagle", "Dachshund", "German Shepherd"],
-    "answer": ["Chihuahua", "Dachshund", "Beagle", "Golden Retriever", "German Shepherd", "Great Dane"],
+    "items": [
+      "Golden Retriever",
+      "Chihuahua",
+      "Great Dane",
+      "Beagle",
+      "Dachshund",
+      "German Shepherd"
+    ],
+    "answer": [
+      "Chihuahua",
+      "Dachshund",
+      "Beagle",
+      "Golden Retriever",
+      "German Shepherd",
+      "Great Dane"
+    ],
     "hint": "lightest → heaviest"
   },
   "2026-05-25": {
     "prompt": "Order these TV shows by the year they first aired, earliest to latest",
-    "items": ["Breaking Bad", "Friends", "The Office", "Seinfeld", "Stranger Things", "Game of Thrones"],
-    "answer": ["Seinfeld", "Friends", "The Office", "Breaking Bad", "Game of Thrones", "Stranger Things"],
+    "items": [
+      "Breaking Bad",
+      "Friends",
+      "The Office",
+      "Seinfeld",
+      "Stranger Things",
+      "Game of Thrones"
+    ],
+    "answer": [
+      "Seinfeld",
+      "Friends",
+      "The Office",
+      "Breaking Bad",
+      "Game of Thrones",
+      "Stranger Things"
+    ],
     "hint": "earliest → latest"
   },
   "2026-05-26": {
     "prompt": "Order these foods by calories per serving, fewest to most",
-    "items": ["Banana", "Slice of Pizza", "Celery Stick", "Egg", "Cheeseburger", "Donut"],
-    "answer": ["Celery Stick", "Egg", "Banana", "Donut", "Slice of Pizza", "Cheeseburger"],
+    "items": [
+      "Banana",
+      "Slice of Pizza",
+      "Celery Stick",
+      "Egg",
+      "Cheeseburger",
+      "Donut"
+    ],
+    "answer": [
+      "Celery Stick",
+      "Egg",
+      "Banana",
+      "Donut",
+      "Slice of Pizza",
+      "Cheeseburger"
+    ],
     "hint": "fewest → most"
   },
   "2026-05-27": {
     "prompt": "Order these countries by number of Olympic gold medals (all time), fewest to most",
-    "items": ["USA", "Great Britain", "China", "France", "Germany", "Italy"],
-    "answer": ["Italy", "France", "China", "Germany", "Great Britain", "USA"],
+    "items": [
+      "USA",
+      "Great Britain",
+      "China",
+      "France",
+      "Germany",
+      "Italy"
+    ],
+    "answer": [
+      "Italy",
+      "France",
+      "China",
+      "Germany",
+      "Great Britain",
+      "USA"
+    ],
     "hint": "fewest → most"
   },
   "2026-05-28": {
     "prompt": "Order these songs by year of release, oldest to newest",
-    "items": ["Bohemian Rhapsody", "Billie Jean", "Smells Like Teen Spirit", "Hey Jude", "Shape of You", "Blinding Lights"],
-    "answer": ["Hey Jude", "Bohemian Rhapsody", "Billie Jean", "Smells Like Teen Spirit", "Shape of You", "Blinding Lights"],
+    "items": [
+      "Bohemian Rhapsody",
+      "Billie Jean",
+      "Smells Like Teen Spirit",
+      "Hey Jude",
+      "Shape of You",
+      "Blinding Lights"
+    ],
+    "answer": [
+      "Hey Jude",
+      "Bohemian Rhapsody",
+      "Billie Jean",
+      "Smells Like Teen Spirit",
+      "Shape of You",
+      "Blinding Lights"
+    ],
     "hint": "oldest → newest"
   },
   "2026-05-29": {
     "prompt": "Order these mountains by elevation, shortest to tallest",
-    "items": ["Mt. Everest", "K2", "Mt. Kilimanjaro", "Mt. Fuji", "Denali", "Mont Blanc"],
-    "answer": ["Mt. Fuji", "Mont Blanc", "Mt. Kilimanjaro", "Denali", "K2", "Mt. Everest"],
+    "items": [
+      "Mt. Everest",
+      "K2",
+      "Mt. Kilimanjaro",
+      "Mt. Fuji",
+      "Denali",
+      "Mont Blanc"
+    ],
+    "answer": [
+      "Mt. Fuji",
+      "Mont Blanc",
+      "Mt. Kilimanjaro",
+      "Denali",
+      "K2",
+      "Mt. Everest"
+    ],
     "hint": "shortest → tallest"
   },
   "2026-05-30": {
     "prompt": "Order these tech companies by year founded, oldest to newest",
-    "items": ["Apple", "Google", "Amazon", "Tesla", "Microsoft", "Facebook"],
-    "answer": ["Microsoft", "Apple", "Amazon", "Google", "Tesla", "Facebook"],
+    "items": [
+      "Apple",
+      "Google",
+      "Amazon",
+      "Tesla",
+      "Microsoft",
+      "Facebook"
+    ],
+    "answer": [
+      "Microsoft",
+      "Apple",
+      "Amazon",
+      "Google",
+      "Tesla",
+      "Facebook"
+    ],
     "hint": "oldest → newest"
   },
   "2026-05-31": {
     "prompt": "Order these rivers by length, shortest to longest",
-    "items": ["Amazon", "Nile", "Mississippi", "Danube", "Yangtze", "Colorado"],
-    "answer": ["Colorado", "Danube", "Mississippi", "Yangtze", "Amazon", "Nile"],
+    "items": [
+      "Amazon",
+      "Nile",
+      "Mississippi",
+      "Danube",
+      "Yangtze",
+      "Colorado"
+    ],
+    "answer": [
+      "Colorado",
+      "Danube",
+      "Mississippi",
+      "Yangtze",
+      "Amazon",
+      "Nile"
+    ],
     "hint": "shortest → longest"
   },
   "2026-06-01": {
     "prompt": "Order these sports by number of players per side during play, fewest to most",
-    "items": ["Baseball", "Soccer", "Tennis", "Basketball", "Ice Hockey", "Beach Volleyball"],
-    "answer": ["Tennis", "Beach Volleyball", "Basketball", "Ice Hockey", "Baseball", "Soccer"],
+    "items": [
+      "Baseball",
+      "Soccer",
+      "Tennis",
+      "Basketball",
+      "Ice Hockey",
+      "Beach Volleyball"
+    ],
+    "answer": [
+      "Tennis",
+      "Beach Volleyball",
+      "Basketball",
+      "Ice Hockey",
+      "Baseball",
+      "Soccer"
+    ],
     "hint": "fewest → most"
   },
   "2026-06-02": {
     "prompt": "Order these Shakespeare plays by when they were written, earliest to latest",
-    "items": ["Hamlet", "Romeo and Juliet", "Macbeth", "A Midsummer Night's Dream", "The Tempest", "Othello"],
-    "answer": ["A Midsummer Night's Dream", "Romeo and Juliet", "Hamlet", "Othello", "Macbeth", "The Tempest"],
+    "items": [
+      "Hamlet",
+      "Romeo and Juliet",
+      "Macbeth",
+      "A Midsummer Night's Dream",
+      "The Tempest",
+      "Othello"
+    ],
+    "answer": [
+      "A Midsummer Night's Dream",
+      "Romeo and Juliet",
+      "Hamlet",
+      "Othello",
+      "Macbeth",
+      "The Tempest"
+    ],
     "hint": "earliest → latest"
   },
   "2026-06-03": {
     "prompt": "Order these desserts by typical sugar content per serving, least to most",
-    "items": ["Dark Chocolate", "Cheesecake", "Fruit Salad", "Ice Cream Sundae", "Brownie", "Cotton Candy"],
-    "answer": ["Fruit Salad", "Dark Chocolate", "Brownie", "Ice Cream Sundae", "Cheesecake", "Cotton Candy"],
+    "items": [
+      "Dark Chocolate",
+      "Cheesecake",
+      "Fruit Salad",
+      "Ice Cream Sundae",
+      "Brownie",
+      "Cotton Candy"
+    ],
+    "answer": [
+      "Fruit Salad",
+      "Dark Chocolate",
+      "Brownie",
+      "Ice Cream Sundae",
+      "Cheesecake",
+      "Cotton Candy"
+    ],
     "hint": "least → most"
   },
   "2026-06-04": {
     "prompt": "Order these video games by year of release, oldest to newest",
-    "items": ["Minecraft", "Tetris", "Super Mario Bros.", "Fortnite", "GTA V", "Pac-Man"],
-    "answer": ["Pac-Man", "Tetris", "Super Mario Bros.", "Minecraft", "GTA V", "Fortnite"],
+    "items": [
+      "Minecraft",
+      "Tetris",
+      "Super Mario Bros.",
+      "Fortnite",
+      "GTA V",
+      "Pac-Man"
+    ],
+    "answer": [
+      "Pac-Man",
+      "Tetris",
+      "Super Mario Bros.",
+      "Minecraft",
+      "GTA V",
+      "Fortnite"
+    ],
     "hint": "oldest → newest"
   },
   "2026-06-05": {
     "prompt": "Order these currencies by value against the US dollar, weakest to strongest",
-    "items": ["Japanese Yen", "British Pound", "Euro", "Indian Rupee", "Swiss Franc", "Mexican Peso"],
-    "answer": ["Japanese Yen", "Indian Rupee", "Mexican Peso", "Euro", "Swiss Franc", "British Pound"],
+    "items": [
+      "Japanese Yen",
+      "British Pound",
+      "Euro",
+      "Indian Rupee",
+      "Swiss Franc",
+      "Mexican Peso"
+    ],
+    "answer": [
+      "Japanese Yen",
+      "Indian Rupee",
+      "Mexican Peso",
+      "Euro",
+      "Swiss Franc",
+      "British Pound"
+    ],
     "hint": "weakest → strongest"
   },
   "2026-06-06": {
     "prompt": "Order these book series by total copies sold, fewest to most",
-    "items": ["Harry Potter", "Twilight", "Hunger Games", "Diary of a Wimpy Kid", "Goosebumps", "A Song of Ice and Fire"],
-    "answer": ["A Song of Ice and Fire", "Hunger Games", "Twilight", "Diary of a Wimpy Kid", "Goosebumps", "Harry Potter"],
+    "items": [
+      "Harry Potter",
+      "Twilight",
+      "Hunger Games",
+      "Diary of a Wimpy Kid",
+      "Goosebumps",
+      "A Song of Ice and Fire"
+    ],
+    "answer": [
+      "A Song of Ice and Fire",
+      "Hunger Games",
+      "Twilight",
+      "Diary of a Wimpy Kid",
+      "Goosebumps",
+      "Harry Potter"
+    ],
     "hint": "fewest → most"
   },
   "2026-06-07": {
     "prompt": "Order these US states by year they joined the Union, earliest to latest",
-    "items": ["California", "Texas", "New York", "Hawaii", "Virginia", "Ohio"],
-    "answer": ["Virginia", "New York", "Ohio", "Texas", "California", "Hawaii"],
+    "items": [
+      "California",
+      "Texas",
+      "New York",
+      "Hawaii",
+      "Virginia",
+      "Ohio"
+    ],
+    "answer": [
+      "Virginia",
+      "New York",
+      "Ohio",
+      "Texas",
+      "California",
+      "Hawaii"
+    ],
     "hint": "earliest → latest"
   },
   "2026-06-08": {
     "prompt": "Order these airports by annual passengers, fewest to most",
-    "items": ["Atlanta", "Dubai", "London Heathrow", "Los Angeles", "Dallas/Fort Worth", "Denver"],
-    "answer": ["Denver", "London Heathrow", "Los Angeles", "Dallas/Fort Worth", "Dubai", "Atlanta"],
+    "items": [
+      "Atlanta",
+      "Dubai",
+      "London Heathrow",
+      "Los Angeles",
+      "Dallas/Fort Worth",
+      "Denver"
+    ],
+    "answer": [
+      "Denver",
+      "London Heathrow",
+      "Los Angeles",
+      "Dallas/Fort Worth",
+      "Dubai",
+      "Atlanta"
+    ],
     "hint": "fewest → most"
   },
   "2026-06-09": {
     "prompt": "Order these fruits by average weight, lightest to heaviest",
-    "items": ["Watermelon", "Apple", "Grape", "Pineapple", "Blueberry", "Orange"],
-    "answer": ["Blueberry", "Grape", "Orange", "Apple", "Pineapple", "Watermelon"],
+    "items": [
+      "Watermelon",
+      "Apple",
+      "Grape",
+      "Pineapple",
+      "Blueberry",
+      "Orange"
+    ],
+    "answer": [
+      "Blueberry",
+      "Grape",
+      "Orange",
+      "Apple",
+      "Pineapple",
+      "Watermelon"
+    ],
     "hint": "lightest → heaviest"
   },
   "2026-06-10": {
     "prompt": "Order these world events chronologically",
-    "items": ["Moon Landing", "Fall of Berlin Wall", "iPhone Released", "9/11", "COVID-19 Pandemic", "Facebook Launched"],
-    "answer": ["Moon Landing", "Fall of Berlin Wall", "9/11", "Facebook Launched", "iPhone Released", "COVID-19 Pandemic"],
+    "items": [
+      "Moon Landing",
+      "Fall of Berlin Wall",
+      "iPhone Released",
+      "9/11",
+      "COVID-19 Pandemic",
+      "Facebook Launched"
+    ],
+    "answer": [
+      "Moon Landing",
+      "Fall of Berlin Wall",
+      "9/11",
+      "Facebook Launched",
+      "iPhone Released",
+      "COVID-19 Pandemic"
+    ],
     "hint": "earliest → latest"
   },
   "2026-06-11": {
     "prompt": "Order these languages by number of native speakers, fewest to most",
-    "items": ["English", "Mandarin", "Spanish", "Hindi", "Arabic", "Portuguese"],
-    "answer": ["Portuguese", "Arabic", "Hindi", "English", "Spanish", "Mandarin"],
+    "items": [
+      "English",
+      "Mandarin",
+      "Spanish",
+      "Hindi",
+      "Arabic",
+      "Portuguese"
+    ],
+    "answer": [
+      "Portuguese",
+      "Arabic",
+      "Hindi",
+      "English",
+      "Spanish",
+      "Mandarin"
+    ],
     "hint": "fewest → most"
   },
   "2026-06-12": {
     "prompt": "Order these Marvel movies by their MCU timeline, earliest to latest",
-    "items": ["Iron Man", "The Avengers", "Guardians of the Galaxy", "Black Panther", "Avengers: Endgame", "Captain America: Civil War"],
-    "answer": ["Iron Man", "The Avengers", "Guardians of the Galaxy", "Captain America: Civil War", "Black Panther", "Avengers: Endgame"],
+    "items": [
+      "Iron Man",
+      "The Avengers",
+      "Guardians of the Galaxy",
+      "Black Panther",
+      "Avengers: Endgame",
+      "Captain America: Civil War"
+    ],
+    "answer": [
+      "Iron Man",
+      "The Avengers",
+      "Guardians of the Galaxy",
+      "Captain America: Civil War",
+      "Black Panther",
+      "Avengers: Endgame"
+    ],
     "hint": "earliest → latest"
   },
   "2026-06-13": {
     "prompt": "Order these car brands by year founded, oldest to newest",
-    "items": ["Tesla", "Toyota", "Ford", "BMW", "Mercedes-Benz", "Honda"],
-    "answer": ["Mercedes-Benz", "Ford", "BMW", "Toyota", "Honda", "Tesla"],
+    "items": [
+      "Tesla",
+      "Toyota",
+      "Ford",
+      "BMW",
+      "Mercedes-Benz",
+      "Honda"
+    ],
+    "answer": [
+      "Mercedes-Benz",
+      "Ford",
+      "BMW",
+      "Toyota",
+      "Honda",
+      "Tesla"
+    ],
     "hint": "oldest → newest"
   },
   "2026-06-14": {
     "prompt": "Order these musical instruments by typical pitch range, lowest to highest",
-    "items": ["Tuba", "Violin", "Cello", "Flute", "Trumpet", "Bass Guitar"],
-    "answer": ["Tuba", "Bass Guitar", "Cello", "Trumpet", "Violin", "Flute"],
+    "items": [
+      "Tuba",
+      "Violin",
+      "Cello",
+      "Flute",
+      "Trumpet",
+      "Bass Guitar"
+    ],
+    "answer": [
+      "Tuba",
+      "Bass Guitar",
+      "Cello",
+      "Trumpet",
+      "Violin",
+      "Flute"
+    ],
     "hint": "lowest → highest"
   },
   "2026-06-15": {
     "prompt": "Order these fast food chains by number of locations worldwide, fewest to most",
-    "items": ["Subway", "McDonald's", "Starbucks", "Burger King", "KFC", "Dunkin'"],
-    "answer": ["Dunkin'", "Burger King", "KFC", "Starbucks", "Subway", "McDonald's"],
+    "items": [
+      "Subway",
+      "McDonald's",
+      "Starbucks",
+      "Burger King",
+      "KFC",
+      "Dunkin'"
+    ],
+    "answer": [
+      "Dunkin'",
+      "Burger King",
+      "KFC",
+      "Starbucks",
+      "Subway",
+      "McDonald's"
+    ],
     "hint": "fewest → most"
   },
   "2026-06-16": {
     "prompt": "Order these horror movies by Rotten Tomatoes score, lowest to highest",
-    "items": ["Get Out", "The Shining", "A Quiet Place", "Hereditary", "The Conjuring", "Scream"],
-    "answer": ["Scream", "The Shining", "The Conjuring", "Hereditary", "A Quiet Place", "Get Out"],
+    "items": [
+      "Get Out",
+      "The Shining",
+      "A Quiet Place",
+      "Hereditary",
+      "The Conjuring",
+      "Scream"
+    ],
+    "answer": [
+      "Scream",
+      "The Shining",
+      "The Conjuring",
+      "Hereditary",
+      "A Quiet Place",
+      "Get Out"
+    ],
     "hint": "lowest → highest"
   },
   "2026-06-17": {
     "prompt": "Order these animals by gestation period, shortest to longest",
-    "items": ["Lion", "Elephant", "Rabbit", "Horse", "Cat", "Hamster"],
-    "answer": ["Hamster", "Rabbit", "Cat", "Lion", "Horse", "Elephant"],
+    "items": [
+      "Lion",
+      "Elephant",
+      "Rabbit",
+      "Horse",
+      "Cat",
+      "Hamster"
+    ],
+    "answer": [
+      "Hamster",
+      "Rabbit",
+      "Cat",
+      "Lion",
+      "Horse",
+      "Elephant"
+    ],
     "hint": "shortest → longest"
+  },
+  "2026-06-18": {
+    "prompt": "Order these planets by distance from the Sun, closest to farthest",
+    "items": [
+      "Saturn",
+      "Mars",
+      "Neptune",
+      "Venus",
+      "Uranus",
+      "Jupiter"
+    ],
+    "answer": [
+      "Venus",
+      "Mars",
+      "Jupiter",
+      "Saturn",
+      "Uranus",
+      "Neptune"
+    ],
+    "hint": "closest → farthest from Sun"
+  },
+  "2026-06-19": {
+    "prompt": "Order these classic rock albums by release year, oldest to newest",
+    "items": [
+      "Nevermind",
+      "Back in Black",
+      "Rumours",
+      "Abbey Road",
+      "The Dark Side of the Moon",
+      "Thriller"
+    ],
+    "answer": [
+      "Abbey Road",
+      "The Dark Side of the Moon",
+      "Rumours",
+      "Back in Black",
+      "Thriller",
+      "Nevermind"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-06-20": {
+    "prompt": "Order these US states by total area, smallest to largest",
+    "items": [
+      "Montana",
+      "Alaska",
+      "Florida",
+      "Rhode Island",
+      "New Mexico",
+      "Nevada"
+    ],
+    "answer": [
+      "Rhode Island",
+      "Florida",
+      "Nevada",
+      "New Mexico",
+      "Montana",
+      "Alaska"
+    ],
+    "hint": "smallest → largest"
+  },
+  "2026-06-21": {
+    "prompt": "Order these elements by atomic number, lowest to highest",
+    "items": [
+      "Neon",
+      "Helium",
+      "Silicon",
+      "Nitrogen",
+      "Sodium",
+      "Lithium"
+    ],
+    "answer": [
+      "Helium",
+      "Lithium",
+      "Nitrogen",
+      "Neon",
+      "Sodium",
+      "Silicon"
+    ],
+    "hint": "lowest → highest atomic number"
+  },
+  "2026-06-22": {
+    "prompt": "Order these scientists by birth year, oldest to newest",
+    "items": [
+      "Marie Curie",
+      "Albert Einstein",
+      "Stephen Hawking",
+      "Isaac Newton",
+      "Charles Darwin",
+      "Nikola Tesla"
+    ],
+    "answer": [
+      "Isaac Newton",
+      "Charles Darwin",
+      "Nikola Tesla",
+      "Marie Curie",
+      "Albert Einstein",
+      "Stephen Hawking"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-06-23": {
+    "prompt": "Order these rivers by length, shortest to longest",
+    "items": [
+      "Rhine",
+      "Volga",
+      "Congo",
+      "Ob",
+      "Missouri",
+      "Mackenzie"
+    ],
+    "answer": [
+      "Rhine",
+      "Mackenzie",
+      "Missouri",
+      "Volga",
+      "Congo",
+      "Ob"
+    ],
+    "hint": "shortest → longest"
+  },
+  "2026-06-24": {
+    "prompt": "Order these social media platforms by founding year, oldest to newest",
+    "items": [
+      "Instagram",
+      "Twitter",
+      "LinkedIn",
+      "YouTube",
+      "TikTok",
+      "Pinterest"
+    ],
+    "answer": [
+      "LinkedIn",
+      "YouTube",
+      "Twitter",
+      "Pinterest",
+      "Instagram",
+      "TikTok"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-06-25": {
+    "prompt": "Order these animals by maximum lifespan, shortest to longest",
+    "items": [
+      "Bowhead Whale",
+      "Greenland Shark",
+      "African Elephant",
+      "Chimpanzee",
+      "Blue Whale",
+      "Giant Tortoise"
+    ],
+    "answer": [
+      "Chimpanzee",
+      "African Elephant",
+      "Blue Whale",
+      "Bowhead Whale",
+      "Giant Tortoise",
+      "Greenland Shark"
+    ],
+    "hint": "shortest → longest lifespan"
+  },
+  "2026-06-26": {
+    "prompt": "Order these tech companies by founding year, oldest to newest",
+    "items": [
+      "Uber",
+      "Netflix",
+      "Adobe",
+      "Salesforce",
+      "Airbnb",
+      "Oracle"
+    ],
+    "answer": [
+      "Oracle",
+      "Adobe",
+      "Netflix",
+      "Salesforce",
+      "Airbnb",
+      "Uber"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-06-27": {
+    "prompt": "Order these Oscar Best Picture winners by year, oldest to newest",
+    "items": [
+      "Parasite",
+      "Schindler's List",
+      "Casablanca",
+      "Rocky",
+      "The Silence of the Lambs",
+      "No Country for Old Men"
+    ],
+    "answer": [
+      "Casablanca",
+      "Rocky",
+      "The Silence of the Lambs",
+      "Schindler's List",
+      "No Country for Old Men",
+      "Parasite"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-06-28": {
+    "prompt": "Order these mammals by top running speed, slowest to fastest",
+    "items": [
+      "Grizzly Bear",
+      "Cheetah",
+      "Wildebeest",
+      "Pronghorn",
+      "Thomson's Gazelle",
+      "Quarter Horse"
+    ],
+    "answer": [
+      "Grizzly Bear",
+      "Wildebeest",
+      "Thomson's Gazelle",
+      "Quarter Horse",
+      "Pronghorn",
+      "Cheetah"
+    ],
+    "hint": "slowest → fastest"
+  },
+  "2026-06-29": {
+    "prompt": "Order these mountains by elevation, lowest to highest",
+    "items": [
+      "Matterhorn",
+      "Aconcagua",
+      "Vinson Massif",
+      "Elbrus",
+      "Puncak Jaya",
+      "Lhotse"
+    ],
+    "answer": [
+      "Matterhorn",
+      "Vinson Massif",
+      "Puncak Jaya",
+      "Elbrus",
+      "Aconcagua",
+      "Lhotse"
+    ],
+    "hint": "lowest → highest elevation"
+  },
+  "2026-06-30": {
+    "prompt": "Order these video game consoles by launch year, oldest to newest",
+    "items": [
+      "PlayStation 4",
+      "Nintendo 64",
+      "Atari 2600",
+      "Xbox 360",
+      "Game Boy",
+      "Sega Genesis"
+    ],
+    "answer": [
+      "Atari 2600",
+      "Sega Genesis",
+      "Game Boy",
+      "Nintendo 64",
+      "Xbox 360",
+      "PlayStation 4"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-07-01": {
+    "prompt": "Order these bridges by total length, shortest to longest",
+    "items": [
+      "Golden Gate Bridge",
+      "Brooklyn Bridge",
+      "Akashi Kaikyo Bridge",
+      "Danyang-Kunshan Grand Bridge",
+      "Lake Pontchartrain Causeway",
+      "Millau Viaduct"
+    ],
+    "answer": [
+      "Brooklyn Bridge",
+      "Millau Viaduct",
+      "Golden Gate Bridge",
+      "Akashi Kaikyo Bridge",
+      "Lake Pontchartrain Causeway",
+      "Danyang-Kunshan Grand Bridge"
+    ],
+    "hint": "shortest → longest"
+  },
+  "2026-07-02": {
+    "prompt": "Order these pop albums by release year, oldest to newest",
+    "items": [
+      "1989",
+      "Lemonade",
+      "21",
+      "Future Nostalgia",
+      "Teenage Dream",
+      "Anti"
+    ],
+    "answer": [
+      "Teenage Dream",
+      "21",
+      "1989",
+      "Lemonade",
+      "Anti",
+      "Future Nostalgia"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-07-03": {
+    "prompt": "Order these famous painters by birth year, oldest to newest",
+    "items": [
+      "Pablo Picasso",
+      "Leonardo da Vinci",
+      "Claude Monet",
+      "Salvador Dali",
+      "Rembrandt",
+      "Michelangelo"
+    ],
+    "answer": [
+      "Leonardo da Vinci",
+      "Michelangelo",
+      "Rembrandt",
+      "Claude Monet",
+      "Pablo Picasso",
+      "Salvador Dali"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-07-04": {
+    "prompt": "Order these US Independence-related events chronologically",
+    "items": [
+      "First US Census taken",
+      "Constitution ratified",
+      "Declaration of Independence signed",
+      "Bill of Rights adopted",
+      "Star-Spangled Banner written",
+      "US Bicentennial celebration"
+    ],
+    "answer": [
+      "Declaration of Independence signed",
+      "Constitution ratified",
+      "Bill of Rights adopted",
+      "First US Census taken",
+      "Star-Spangled Banner written",
+      "US Bicentennial celebration"
+    ],
+    "hint": "earliest → latest"
+  },
+  "2026-07-05": {
+    "prompt": "Order these hip-hop albums by release year, oldest to newest",
+    "items": [
+      "The Marshall Mathers LP",
+      "Illmatic",
+      "To Pimp a Butterfly",
+      "Ready to Die",
+      "My Beautiful Dark Twisted Fantasy",
+      "good kid, m.A.A.d city"
+    ],
+    "answer": [
+      "Illmatic",
+      "Ready to Die",
+      "The Marshall Mathers LP",
+      "My Beautiful Dark Twisted Fantasy",
+      "good kid, m.A.A.d city",
+      "To Pimp a Butterfly"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-07-06": {
+    "prompt": "Order these lakes by surface area, smallest to largest",
+    "items": [
+      "Lake Huron",
+      "Lake Baikal",
+      "Lake Tanganyika",
+      "Lake Erie",
+      "Lake Michigan",
+      "Lake Victoria"
+    ],
+    "answer": [
+      "Lake Erie",
+      "Lake Tanganyika",
+      "Lake Baikal",
+      "Lake Michigan",
+      "Lake Huron",
+      "Lake Victoria"
+    ],
+    "hint": "smallest → largest"
+  },
+  "2026-07-07": {
+    "prompt": "Order these historical empires by founding year, oldest to newest",
+    "items": [
+      "Ottoman Empire",
+      "Roman Empire",
+      "British Empire",
+      "Mongol Empire",
+      "Persian Empire",
+      "Byzantine Empire"
+    ],
+    "answer": [
+      "Persian Empire",
+      "Roman Empire",
+      "Byzantine Empire",
+      "Mongol Empire",
+      "Ottoman Empire",
+      "British Empire"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-07-08": {
+    "prompt": "Order these James Bond films by release year, oldest to newest",
+    "items": [
+      "Casino Royale (2006)",
+      "Skyfall",
+      "GoldenEye",
+      "Dr. No",
+      "The Spy Who Loved Me",
+      "Moonraker"
+    ],
+    "answer": [
+      "Dr. No",
+      "The Spy Who Loved Me",
+      "Moonraker",
+      "GoldenEye",
+      "Casino Royale (2006)",
+      "Skyfall"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-07-09": {
+    "prompt": "Order these foods by protein content per 100g, lowest to highest",
+    "items": [
+      "White Rice",
+      "Cheddar Cheese",
+      "Chicken Breast",
+      "Lentils",
+      "Tofu",
+      "Egg White"
+    ],
+    "answer": [
+      "White Rice",
+      "Tofu",
+      "Lentils",
+      "Egg White",
+      "Cheddar Cheese",
+      "Chicken Breast"
+    ],
+    "hint": "lowest → highest protein"
+  },
+  "2026-07-10": {
+    "prompt": "Order these Pixar films by release year, oldest to newest",
+    "items": [
+      "Coco",
+      "WALL-E",
+      "Up",
+      "Toy Story",
+      "Ratatouille",
+      "Inside Out"
+    ],
+    "answer": [
+      "Toy Story",
+      "Ratatouille",
+      "WALL-E",
+      "Up",
+      "Inside Out",
+      "Coco"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-07-11": {
+    "prompt": "Order these tennis Grand Slam titles won (all-time men's singles), fewest to most",
+    "items": [
+      "Roger Federer",
+      "Rafael Nadal",
+      "Novak Djokovic",
+      "Boris Becker",
+      "Andre Agassi",
+      "Pete Sampras"
+    ],
+    "answer": [
+      "Boris Becker",
+      "Andre Agassi",
+      "Pete Sampras",
+      "Roger Federer",
+      "Rafael Nadal",
+      "Novak Djokovic"
+    ],
+    "hint": "fewest → most Grand Slam titles"
+  },
+  "2026-07-12": {
+    "prompt": "Order these streaming services by launch year, oldest to newest",
+    "items": [
+      "Disney+",
+      "Peacock",
+      "HBO Max",
+      "Hulu",
+      "Apple TV+",
+      "Amazon Prime Video"
+    ],
+    "answer": [
+      "Amazon Prime Video",
+      "Hulu",
+      "Apple TV+",
+      "Disney+",
+      "HBO Max",
+      "Peacock"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-07-13": {
+    "prompt": "Order these rock albums by release year, oldest to newest",
+    "items": [
+      "Appetite for Destruction",
+      "OK Computer",
+      "American Idiot",
+      "Led Zeppelin IV",
+      "Born to Run",
+      "Purple Rain"
+    ],
+    "answer": [
+      "Led Zeppelin IV",
+      "Born to Run",
+      "Purple Rain",
+      "Appetite for Destruction",
+      "OK Computer",
+      "American Idiot"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-07-14": {
+    "prompt": "Order these elements by melting point, lowest to highest",
+    "items": [
+      "Mercury",
+      "Tungsten",
+      "Iron",
+      "Aluminum",
+      "Lead",
+      "Copper"
+    ],
+    "answer": [
+      "Mercury",
+      "Lead",
+      "Aluminum",
+      "Copper",
+      "Iron",
+      "Tungsten"
+    ],
+    "hint": "lowest → highest melting point"
+  },
+  "2026-07-15": {
+    "prompt": "Order these sci-fi films by release year, oldest to newest",
+    "items": [
+      "Blade Runner",
+      "2001: A Space Odyssey",
+      "Interstellar",
+      "Alien",
+      "The Martian",
+      "Ex Machina"
+    ],
+    "answer": [
+      "2001: A Space Odyssey",
+      "Alien",
+      "Blade Runner",
+      "Interstellar",
+      "Ex Machina",
+      "The Martian"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-07-16": {
+    "prompt": "Order these famous battles chronologically",
+    "items": [
+      "Battle of Waterloo",
+      "Battle of Hastings",
+      "Battle of Gettysburg",
+      "Battle of Thermopylae",
+      "Battle of Stalingrad",
+      "Battle of the Bulge"
+    ],
+    "answer": [
+      "Battle of Thermopylae",
+      "Battle of Hastings",
+      "Battle of Waterloo",
+      "Battle of Gettysburg",
+      "Battle of Stalingrad",
+      "Battle of the Bulge"
+    ],
+    "hint": "earliest → latest"
+  },
+  "2026-07-17": {
+    "prompt": "Order these famous novels by publication year, oldest to newest",
+    "items": [
+      "1984",
+      "To Kill a Mockingbird",
+      "Pride and Prejudice",
+      "The Great Gatsby",
+      "The Catcher in the Rye",
+      "One Hundred Years of Solitude"
+    ],
+    "answer": [
+      "Pride and Prejudice",
+      "The Great Gatsby",
+      "1984",
+      "The Catcher in the Rye",
+      "To Kill a Mockingbird",
+      "One Hundred Years of Solitude"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-07-18": {
+    "prompt": "Order these Summer Olympics host cities by year, oldest to newest",
+    "items": [
+      "Tokyo (2021)",
+      "Sydney",
+      "Munich",
+      "Montreal",
+      "Seoul",
+      "Barcelona"
+    ],
+    "answer": [
+      "Munich",
+      "Montreal",
+      "Barcelona",
+      "Seoul",
+      "Sydney",
+      "Tokyo (2021)"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-07-19": {
+    "prompt": "Order these animals by weight, lightest to heaviest",
+    "items": [
+      "Polar Bear",
+      "Hippopotamus",
+      "Giraffe",
+      "African Buffalo",
+      "White Rhinoceros",
+      "Saltwater Crocodile"
+    ],
+    "answer": [
+      "Saltwater Crocodile",
+      "African Buffalo",
+      "Giraffe",
+      "Polar Bear",
+      "White Rhinoceros",
+      "Hippopotamus"
+    ],
+    "hint": "lightest → heaviest"
+  },
+  "2026-07-20": {
+    "prompt": "Order these space exploration milestones chronologically",
+    "items": [
+      "First commercial crew to ISS",
+      "Hubble Space Telescope launched",
+      "Voyager 1 launched",
+      "First spacewalk",
+      "International Space Station assembly begins",
+      "First Mars rover lands"
+    ],
+    "answer": [
+      "First spacewalk",
+      "Voyager 1 launched",
+      "Hubble Space Telescope launched",
+      "First Mars rover lands",
+      "International Space Station assembly begins",
+      "First commercial crew to ISS"
+    ],
+    "hint": "earliest → latest"
+  },
+  "2026-07-21": {
+    "prompt": "Order these animated Disney films by release year, oldest to newest",
+    "items": [
+      "Tangled",
+      "Beauty and the Beast",
+      "Encanto",
+      "Bambi",
+      "Snow White and the Seven Dwarfs",
+      "Mulan"
+    ],
+    "answer": [
+      "Snow White and the Seven Dwarfs",
+      "Bambi",
+      "Beauty and the Beast",
+      "Mulan",
+      "Tangled",
+      "Encanto"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-07-22": {
+    "prompt": "Order these famous composers by birth year, oldest to newest",
+    "items": [
+      "Johann Sebastian Bach",
+      "Ludwig van Beethoven",
+      "Wolfgang Amadeus Mozart",
+      "Frederic Chopin",
+      "Antonio Vivaldi",
+      "Pyotr Tchaikovsky"
+    ],
+    "answer": [
+      "Antonio Vivaldi",
+      "Johann Sebastian Bach",
+      "Wolfgang Amadeus Mozart",
+      "Ludwig van Beethoven",
+      "Frederic Chopin",
+      "Pyotr Tchaikovsky"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-07-23": {
+    "prompt": "Order these deserts by area, smallest to largest",
+    "items": [
+      "Gobi Desert",
+      "Arabian Desert",
+      "Sahara Desert",
+      "Mojave Desert",
+      "Syrian Desert",
+      "Patagonian Desert"
+    ],
+    "answer": [
+      "Mojave Desert",
+      "Syrian Desert",
+      "Patagonian Desert",
+      "Gobi Desert",
+      "Arabian Desert",
+      "Sahara Desert"
+    ],
+    "hint": "smallest → largest"
+  },
+  "2026-07-24": {
+    "prompt": "Order these classic TV shows by premiere year, oldest to newest",
+    "items": [
+      "I Love Lucy",
+      "The Simpsons",
+      "M*A*S*H",
+      "All in the Family",
+      "Cheers",
+      "ER"
+    ],
+    "answer": [
+      "I Love Lucy",
+      "All in the Family",
+      "M*A*S*H",
+      "Cheers",
+      "ER",
+      "The Simpsons"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-07-25": {
+    "prompt": "Order these birds by wingspan, smallest to largest",
+    "items": [
+      "Wandering Albatross",
+      "Andean Condor",
+      "Bald Eagle",
+      "Peregrine Falcon",
+      "Ruby-throated Hummingbird",
+      "Marabou Stork"
+    ],
+    "answer": [
+      "Ruby-throated Hummingbird",
+      "Peregrine Falcon",
+      "Bald Eagle",
+      "Marabou Stork",
+      "Andean Condor",
+      "Wandering Albatross"
+    ],
+    "hint": "smallest → largest wingspan"
+  },
+  "2026-07-26": {
+    "prompt": "Order these famous paintings by year created, oldest to newest",
+    "items": [
+      "The Starry Night",
+      "Mona Lisa",
+      "The Scream",
+      "Girl with a Pearl Earring",
+      "Guernica",
+      "Campbell's Soup Cans"
+    ],
+    "answer": [
+      "Mona Lisa",
+      "Girl with a Pearl Earring",
+      "The Scream",
+      "The Starry Night",
+      "Guernica",
+      "Campbell's Soup Cans"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-07-27": {
+    "prompt": "Order these action films by release year, oldest to newest",
+    "items": [
+      "Die Hard",
+      "Mad Max: Fury Road",
+      "Speed",
+      "John Wick",
+      "The Terminator",
+      "Mission: Impossible"
+    ],
+    "answer": [
+      "The Terminator",
+      "Die Hard",
+      "Speed",
+      "Mission: Impossible",
+      "John Wick",
+      "Mad Max: Fury Road"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-07-28": {
+    "prompt": "Order these NFL teams by number of Super Bowl wins, fewest to most",
+    "items": [
+      "Kansas City Chiefs",
+      "Dallas Cowboys",
+      "Pittsburgh Steelers",
+      "San Francisco 49ers",
+      "New England Patriots",
+      "New York Giants"
+    ],
+    "answer": [
+      "New York Giants",
+      "San Francisco 49ers",
+      "Dallas Cowboys",
+      "Kansas City Chiefs",
+      "Pittsburgh Steelers",
+      "New England Patriots"
+    ],
+    "hint": "fewest → most Super Bowl wins"
+  },
+  "2026-07-29": {
+    "prompt": "Order these video game franchises by year of first game, oldest to newest",
+    "items": [
+      "Call of Duty",
+      "The Legend of Zelda",
+      "Pokemon",
+      "Grand Theft Auto",
+      "Halo",
+      "Pong"
+    ],
+    "answer": [
+      "Pong",
+      "The Legend of Zelda",
+      "Pokemon",
+      "Grand Theft Auto",
+      "Halo",
+      "Call of Duty"
+    ],
+    "hint": "oldest → newest first game"
+  },
+  "2026-07-30": {
+    "prompt": "Order these drinks by caffeine content per serving, lowest to highest",
+    "items": [
+      "Decaf Coffee",
+      "Green Tea",
+      "Black Tea",
+      "Red Bull",
+      "Espresso Shot",
+      "Drip Coffee"
+    ],
+    "answer": [
+      "Decaf Coffee",
+      "Green Tea",
+      "Black Tea",
+      "Red Bull",
+      "Drip Coffee",
+      "Espresso Shot"
+    ],
+    "hint": "lowest → highest caffeine"
+  },
+  "2026-07-31": {
+    "prompt": "Order these music festivals by founding year, oldest to newest",
+    "items": [
+      "Coachella",
+      "Glastonbury",
+      "Lollapalooza",
+      "Woodstock",
+      "Bonnaroo",
+      "Reading Festival"
+    ],
+    "answer": [
+      "Woodstock",
+      "Reading Festival",
+      "Glastonbury",
+      "Lollapalooza",
+      "Bonnaroo",
+      "Coachella"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-08-01": {
+    "prompt": "Order these aircraft by cruising speed, slowest to fastest",
+    "items": [
+      "Cessna 172",
+      "Boeing 747",
+      "Concorde",
+      "SR-71 Blackbird",
+      "F-22 Raptor",
+      "Airbus A380"
+    ],
+    "answer": [
+      "Cessna 172",
+      "Airbus A380",
+      "Boeing 747",
+      "F-22 Raptor",
+      "Concorde",
+      "SR-71 Blackbird"
+    ],
+    "hint": "slowest → fastest"
+  },
+  "2026-08-02": {
+    "prompt": "Order these cities by elevation above sea level, lowest to highest",
+    "items": [
+      "La Paz",
+      "Johannesburg",
+      "Bogota",
+      "Addis Ababa",
+      "Amsterdam",
+      "Quito"
+    ],
+    "answer": [
+      "Amsterdam",
+      "Johannesburg",
+      "Bogota",
+      "Addis Ababa",
+      "Quito",
+      "La Paz"
+    ],
+    "hint": "lowest → highest elevation"
+  },
+  "2026-08-03": {
+    "prompt": "Order these volcanoes by elevation, lowest to highest",
+    "items": [
+      "Mount Etna",
+      "Mauna Loa",
+      "Mount Vesuvius",
+      "Krakatoa",
+      "Mount St. Helens",
+      "Ojos del Salado"
+    ],
+    "answer": [
+      "Krakatoa",
+      "Mount Vesuvius",
+      "Mount St. Helens",
+      "Mount Etna",
+      "Mauna Loa",
+      "Ojos del Salado"
+    ],
+    "hint": "lowest → highest elevation"
+  },
+  "2026-08-04": {
+    "prompt": "Order these classic horror films by release year, oldest to newest",
+    "items": [
+      "Nosferatu",
+      "Frankenstein (1931)",
+      "Night of the Living Dead",
+      "Dracula (1931)",
+      "Bride of Frankenstein",
+      "Creature from the Black Lagoon"
+    ],
+    "answer": [
+      "Nosferatu",
+      "Dracula (1931)",
+      "Frankenstein (1931)",
+      "Bride of Frankenstein",
+      "Creature from the Black Lagoon",
+      "Night of the Living Dead"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-08-05": {
+    "prompt": "Order these famous authors by birth year, oldest to newest",
+    "items": [
+      "Mark Twain",
+      "William Shakespeare",
+      "Jane Austen",
+      "Ernest Hemingway",
+      "Toni Morrison",
+      "J.K. Rowling"
+    ],
+    "answer": [
+      "William Shakespeare",
+      "Jane Austen",
+      "Mark Twain",
+      "Ernest Hemingway",
+      "Toni Morrison",
+      "J.K. Rowling"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-08-06": {
+    "prompt": "Order these Nobel Peace Prize winners by year awarded, oldest to newest",
+    "items": [
+      "Mother Teresa",
+      "Martin Luther King Jr.",
+      "Malala Yousafzai",
+      "Nelson Mandela",
+      "Barack Obama",
+      "Elie Wiesel"
+    ],
+    "answer": [
+      "Martin Luther King Jr.",
+      "Mother Teresa",
+      "Nelson Mandela",
+      "Elie Wiesel",
+      "Barack Obama",
+      "Malala Yousafzai"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-08-07": {
+    "prompt": "Order these animated TV shows by premiere year, oldest to newest",
+    "items": [
+      "Family Guy",
+      "South Park",
+      "Bob's Burgers",
+      "Futurama",
+      "Rick and Morty",
+      "Archer"
+    ],
+    "answer": [
+      "South Park",
+      "Futurama",
+      "Family Guy",
+      "Archer",
+      "Bob's Burgers",
+      "Rick and Morty"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-08-08": {
+    "prompt": "Order these fashion brands by founding year, oldest to newest",
+    "items": [
+      "Gucci",
+      "Chanel",
+      "Louis Vuitton",
+      "Zara",
+      "H&M",
+      "Burberry"
+    ],
+    "answer": [
+      "Burberry",
+      "Louis Vuitton",
+      "Chanel",
+      "Gucci",
+      "H&M",
+      "Zara"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-08-09": {
+    "prompt": "Order these historic inventions chronologically",
+    "items": [
+      "Steam Engine",
+      "Gunpowder",
+      "Magnetic Compass",
+      "Antibiotics",
+      "Computer",
+      "World Wide Web"
+    ],
+    "answer": [
+      "Gunpowder",
+      "Magnetic Compass",
+      "Steam Engine",
+      "Antibiotics",
+      "Computer",
+      "World Wide Web"
+    ],
+    "hint": "earliest → latest invention"
+  },
+  "2026-08-10": {
+    "prompt": "Order these skyscrapers by year completed, oldest to newest",
+    "items": [
+      "Petronas Towers",
+      "CITIC Plaza",
+      "Willis Tower",
+      "Shanghai Tower",
+      "Taipei 101",
+      "Chrysler Building"
+    ],
+    "answer": [
+      "Chrysler Building",
+      "Willis Tower",
+      "CITIC Plaza",
+      "Petronas Towers",
+      "Taipei 101",
+      "Shanghai Tower"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-08-11": {
+    "prompt": "Order these drama TV shows by premiere year, oldest to newest",
+    "items": [
+      "The Sopranos",
+      "Mad Men",
+      "The Wire",
+      "Succession",
+      "Ozark",
+      "Better Call Saul"
+    ],
+    "answer": [
+      "The Sopranos",
+      "The Wire",
+      "Mad Men",
+      "Better Call Saul",
+      "Ozark",
+      "Succession"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-08-12": {
+    "prompt": "Order these historical naval battles chronologically",
+    "items": [
+      "Battle of Midway",
+      "Battle of Trafalgar",
+      "Battle of Salamis",
+      "Battle of Jutland",
+      "Battle of Lepanto",
+      "Battle of the Coral Sea"
+    ],
+    "answer": [
+      "Battle of Salamis",
+      "Battle of Lepanto",
+      "Battle of Trafalgar",
+      "Battle of Jutland",
+      "Battle of the Coral Sea",
+      "Battle of Midway"
+    ],
+    "hint": "earliest → latest"
+  },
+  "2026-08-13": {
+    "prompt": "Order these insects by approximate body length, smallest to largest",
+    "items": [
+      "Monarch Butterfly",
+      "Goliath Beetle",
+      "Fairyfly",
+      "Honeybee",
+      "Atlas Moth",
+      "Walking Stick"
+    ],
+    "answer": [
+      "Fairyfly",
+      "Honeybee",
+      "Monarch Butterfly",
+      "Atlas Moth",
+      "Walking Stick",
+      "Goliath Beetle"
+    ],
+    "hint": "smallest → largest"
+  },
+  "2026-08-14": {
+    "prompt": "Order these Quentin Tarantino films by release year, oldest to newest",
+    "items": [
+      "Once Upon a Time in Hollywood",
+      "Django Unchained",
+      "Inglourious Basterds",
+      "Pulp Fiction",
+      "Kill Bill: Volume 1",
+      "Jackie Brown"
+    ],
+    "answer": [
+      "Pulp Fiction",
+      "Jackie Brown",
+      "Kill Bill: Volume 1",
+      "Inglourious Basterds",
+      "Django Unchained",
+      "Once Upon a Time in Hollywood"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-08-15": {
+    "prompt": "Order these soft drinks by year introduced, oldest to newest",
+    "items": [
+      "Pepsi",
+      "Coca-Cola",
+      "Dr Pepper",
+      "Mountain Dew",
+      "Sprite",
+      "7UP"
+    ],
+    "answer": [
+      "Dr Pepper",
+      "Coca-Cola",
+      "Pepsi",
+      "7UP",
+      "Mountain Dew",
+      "Sprite"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-08-16": {
+    "prompt": "Order these animals by swimming speed, slowest to fastest",
+    "items": [
+      "Manatee",
+      "Sea Turtle",
+      "Orca",
+      "Seahorse",
+      "Sailfish",
+      "Gentoo Penguin"
+    ],
+    "answer": [
+      "Seahorse",
+      "Manatee",
+      "Sea Turtle",
+      "Gentoo Penguin",
+      "Orca",
+      "Sailfish"
+    ],
+    "hint": "slowest → fastest swimmer"
+  },
+  "2026-08-17": {
+    "prompt": "Order these NBA teams by number of championships won, fewest to most",
+    "items": [
+      "Miami Heat",
+      "Chicago Bulls",
+      "San Antonio Spurs",
+      "Milwaukee Bucks",
+      "Detroit Pistons",
+      "Golden State Warriors"
+    ],
+    "answer": [
+      "Milwaukee Bucks",
+      "Miami Heat",
+      "Detroit Pistons",
+      "San Antonio Spurs",
+      "Chicago Bulls",
+      "Golden State Warriors"
+    ],
+    "hint": "fewest → most championships"
+  },
+  "2026-08-18": {
+    "prompt": "Order these songs by year of release, oldest to newest",
+    "items": [
+      "What's Going On",
+      "Purple Haze",
+      "Hotel California",
+      "Lose Yourself",
+      "Rolling in the Deep",
+      "Old Town Road"
+    ],
+    "answer": [
+      "Purple Haze",
+      "What's Going On",
+      "Hotel California",
+      "Lose Yourself",
+      "Rolling in the Deep",
+      "Old Town Road"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-08-19": {
+    "prompt": "Order these famous rockets by height, shortest to tallest",
+    "items": [
+      "Falcon 9",
+      "Starship",
+      "Saturn V",
+      "Ariane 5",
+      "Atlas V",
+      "Delta IV Heavy"
+    ],
+    "answer": [
+      "Ariane 5",
+      "Delta IV Heavy",
+      "Atlas V",
+      "Falcon 9",
+      "Saturn V",
+      "Starship"
+    ],
+    "hint": "shortest → tallest"
+  },
+  "2026-08-20": {
+    "prompt": "Order these famous explorers by year of their most notable voyage, oldest to newest",
+    "items": [
+      "Christopher Columbus",
+      "Ferdinand Magellan",
+      "Vasco da Gama",
+      "Marco Polo",
+      "Neil Armstrong",
+      "Roald Amundsen"
+    ],
+    "answer": [
+      "Marco Polo",
+      "Christopher Columbus",
+      "Vasco da Gama",
+      "Ferdinand Magellan",
+      "Roald Amundsen",
+      "Neil Armstrong"
+    ],
+    "hint": "earliest → latest voyage"
+  },
+  "2026-08-21": {
+    "prompt": "Order these major religions by number of followers worldwide, fewest to most",
+    "items": [
+      "Sikhism",
+      "Judaism",
+      "Buddhism",
+      "Hinduism",
+      "Islam",
+      "Christianity"
+    ],
+    "answer": [
+      "Judaism",
+      "Sikhism",
+      "Buddhism",
+      "Hinduism",
+      "Islam",
+      "Christianity"
+    ],
+    "hint": "fewest → most followers"
+  },
+  "2026-08-22": {
+    "prompt": "Order these US elections by voter turnout percentage, lowest to highest",
+    "items": [
+      "2020 Presidential",
+      "1996 Presidential",
+      "1972 Presidential",
+      "2018 Midterm",
+      "2022 Midterm",
+      "1960 Presidential"
+    ],
+    "answer": [
+      "1996 Presidential",
+      "2022 Midterm",
+      "2018 Midterm",
+      "1972 Presidential",
+      "1960 Presidential",
+      "2020 Presidential"
+    ],
+    "hint": "lowest → highest turnout"
+  },
+  "2026-08-23": {
+    "prompt": "Order these famous mathematicians by birth year, oldest to newest",
+    "items": [
+      "Euclid",
+      "Archimedes",
+      "Blaise Pascal",
+      "Carl Friedrich Gauss",
+      "Leonhard Euler",
+      "Alan Turing"
+    ],
+    "answer": [
+      "Euclid",
+      "Archimedes",
+      "Blaise Pascal",
+      "Leonhard Euler",
+      "Carl Friedrich Gauss",
+      "Alan Turing"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-08-24": {
+    "prompt": "Order these FIFA World Cup host nations by year hosted, oldest to newest",
+    "items": [
+      "Qatar",
+      "South Africa",
+      "South Korea/Japan",
+      "Sweden (1958)",
+      "Mexico (1970)",
+      "Argentina (1978)"
+    ],
+    "answer": [
+      "Sweden (1958)",
+      "Mexico (1970)",
+      "Argentina (1978)",
+      "South Korea/Japan",
+      "South Africa",
+      "Qatar"
+    ],
+    "hint": "oldest → newest World Cup host"
+  },
+  "2026-08-25": {
+    "prompt": "Order these rivers by discharge rate (water flow volume), smallest to largest",
+    "items": [
+      "Colorado River",
+      "Mississippi River",
+      "Ganges River",
+      "Congo River",
+      "Amazon River",
+      "Yangtze River"
+    ],
+    "answer": [
+      "Colorado River",
+      "Ganges River",
+      "Yangtze River",
+      "Mississippi River",
+      "Congo River",
+      "Amazon River"
+    ],
+    "hint": "smallest → largest discharge"
+  },
+  "2026-08-26": {
+    "prompt": "Order these animals by gestation period, shortest to longest",
+    "items": [
+      "Virginia Opossum",
+      "Domestic Cat",
+      "African Wild Dog",
+      "Killer Whale",
+      "Bactrian Camel",
+      "Sperm Whale"
+    ],
+    "answer": [
+      "Virginia Opossum",
+      "Domestic Cat",
+      "African Wild Dog",
+      "Bactrian Camel",
+      "Sperm Whale",
+      "Killer Whale"
+    ],
+    "hint": "shortest → longest gestation"
+  },
+  "2026-08-27": {
+    "prompt": "Order these sports leagues by founding year, oldest to newest",
+    "items": [
+      "NBA",
+      "NFL",
+      "MLB",
+      "NHL",
+      "MLS",
+      "Premier League"
+    ],
+    "answer": [
+      "MLB",
+      "NHL",
+      "NFL",
+      "NBA",
+      "Premier League",
+      "MLS"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-08-28": {
+    "prompt": "Order these video games by number of copies sold, fewest to most",
+    "items": [
+      "Red Dead Redemption 2",
+      "Grand Theft Auto V",
+      "Super Mario Bros.",
+      "Pokemon Red/Blue",
+      "Wii Sports",
+      "Tetris"
+    ],
+    "answer": [
+      "Red Dead Redemption 2",
+      "Super Mario Bros.",
+      "Pokemon Red/Blue",
+      "Wii Sports",
+      "Grand Theft Auto V",
+      "Tetris"
+    ],
+    "hint": "fewest → most copies sold"
+  },
+  "2026-08-29": {
+    "prompt": "Order these musical eras chronologically",
+    "items": [
+      "Romantic Period",
+      "Baroque Period",
+      "Jazz Age",
+      "Classical Period",
+      "Medieval Music",
+      "Rock and Roll Era"
+    ],
+    "answer": [
+      "Medieval Music",
+      "Baroque Period",
+      "Classical Period",
+      "Romantic Period",
+      "Jazz Age",
+      "Rock and Roll Era"
+    ],
+    "hint": "earliest → latest"
+  },
+  "2026-08-30": {
+    "prompt": "Order these famous literary works by publication year, oldest to newest",
+    "items": [
+      "The Trial",
+      "Brave New World",
+      "Catch-22",
+      "Don Quixote",
+      "Moby-Dick",
+      "Crime and Punishment"
+    ],
+    "answer": [
+      "Don Quixote",
+      "Moby-Dick",
+      "Crime and Punishment",
+      "The Trial",
+      "Brave New World",
+      "Catch-22"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-08-31": {
+    "prompt": "Order these historic wars by start date, oldest to newest",
+    "items": [
+      "World War I",
+      "Napoleonic Wars",
+      "Korean War",
+      "Hundred Years War",
+      "American Civil War",
+      "Vietnam War"
+    ],
+    "answer": [
+      "Hundred Years War",
+      "Napoleonic Wars",
+      "American Civil War",
+      "World War I",
+      "Korean War",
+      "Vietnam War"
+    ],
+    "hint": "earliest → latest start"
+  },
+  "2026-09-01": {
+    "prompt": "Order these scientists by year of their most notable discovery, oldest to newest",
+    "items": [
+      "Francis Crick",
+      "Copernicus",
+      "Alexander Fleming",
+      "Tim Berners-Lee",
+      "William Harvey",
+      "Gregor Mendel"
+    ],
+    "answer": [
+      "Copernicus",
+      "William Harvey",
+      "Gregor Mendel",
+      "Alexander Fleming",
+      "Francis Crick",
+      "Tim Berners-Lee"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-09-02": {
+    "prompt": "Order these award-winning films by release year, oldest to newest",
+    "items": [
+      "The Godfather",
+      "All About Eve",
+      "Annie Hall",
+      "Moonlight",
+      "Birdman",
+      "Spotlight"
+    ],
+    "answer": [
+      "All About Eve",
+      "The Godfather",
+      "Annie Hall",
+      "Spotlight",
+      "Birdman",
+      "Moonlight"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-09-03": {
+    "prompt": "Order these countries by GDP (nominal, 2023), smallest to largest",
+    "items": [
+      "South Korea",
+      "Indonesia",
+      "Sweden",
+      "Nigeria",
+      "Turkey",
+      "Netherlands"
+    ],
+    "answer": [
+      "Nigeria",
+      "Sweden",
+      "Netherlands",
+      "Turkey",
+      "Indonesia",
+      "South Korea"
+    ],
+    "hint": "smallest → largest GDP"
+  },
+  "2026-09-04": {
+    "prompt": "Order these ocean trenches by depth, shallowest to deepest",
+    "items": [
+      "Mariana Trench",
+      "Cayman Trough",
+      "Japan Trench",
+      "Java Trench",
+      "Kermadec Trench",
+      "Puerto Rico Trench"
+    ],
+    "answer": [
+      "Java Trench",
+      "Cayman Trough",
+      "Puerto Rico Trench",
+      "Japan Trench",
+      "Kermadec Trench",
+      "Mariana Trench"
+    ],
+    "hint": "shallowest → deepest"
+  },
+  "2026-09-05": {
+    "prompt": "Order these tech products by year launched, oldest to newest",
+    "items": [
+      "Amazon Echo",
+      "iPod",
+      "PlayStation",
+      "BlackBerry smartphone",
+      "Oculus Rift",
+      "iPad"
+    ],
+    "answer": [
+      "PlayStation",
+      "iPod",
+      "BlackBerry smartphone",
+      "iPad",
+      "Amazon Echo",
+      "Oculus Rift"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-09-06": {
+    "prompt": "Order these countries by median age of population, youngest to oldest",
+    "items": [
+      "Thailand",
+      "Portugal",
+      "Monaco",
+      "Niger",
+      "Angola",
+      "Haiti"
+    ],
+    "answer": [
+      "Niger",
+      "Angola",
+      "Haiti",
+      "Thailand",
+      "Portugal",
+      "Monaco"
+    ],
+    "hint": "youngest → oldest median age"
+  },
+  "2026-09-07": {
+    "prompt": "Order these currencies by value relative to 1 USD (2024), most valuable to least",
+    "items": [
+      "Kuwaiti Dinar",
+      "US Dollar",
+      "Bahraini Dinar",
+      "Australian Dollar",
+      "South Korean Won",
+      "Indonesian Rupiah"
+    ],
+    "answer": [
+      "Kuwaiti Dinar",
+      "Bahraini Dinar",
+      "US Dollar",
+      "Australian Dollar",
+      "South Korean Won",
+      "Indonesian Rupiah"
+    ],
+    "hint": "most → least valuable vs USD"
+  },
+  "2026-09-08": {
+    "prompt": "Order these elements by density, lightest to heaviest",
+    "items": [
+      "Osmium",
+      "Beryllium",
+      "Magnesium",
+      "Iron",
+      "Platinum",
+      "Titanium"
+    ],
+    "answer": [
+      "Beryllium",
+      "Magnesium",
+      "Titanium",
+      "Iron",
+      "Platinum",
+      "Osmium"
+    ],
+    "hint": "lightest → heaviest density"
+  },
+  "2026-09-09": {
+    "prompt": "Order these historical buildings by year completed, oldest to newest",
+    "items": [
+      "Colosseum",
+      "Hagia Sophia",
+      "St. Peter's Basilica",
+      "Sydney Opera House",
+      "Sagrada Familia",
+      "Burj Al Arab"
+    ],
+    "answer": [
+      "Colosseum",
+      "Hagia Sophia",
+      "St. Peter's Basilica",
+      "Sydney Opera House",
+      "Burj Al Arab",
+      "Sagrada Familia"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-09-10": {
+    "prompt": "Order these roller coasters by top speed, slowest to fastest",
+    "items": [
+      "Kingda Ka",
+      "Fury 325",
+      "Space Mountain",
+      "Big Thunder Mountain Railroad",
+      "Top Thrill Dragster",
+      "Millennium Force"
+    ],
+    "answer": [
+      "Space Mountain",
+      "Big Thunder Mountain Railroad",
+      "Millennium Force",
+      "Fury 325",
+      "Top Thrill Dragster",
+      "Kingda Ka"
+    ],
+    "hint": "slowest → fastest"
+  },
+  "2026-09-11": {
+    "prompt": "Order these countries by number of active volcanoes, fewest to most",
+    "items": [
+      "Chile",
+      "Japan",
+      "Philippines",
+      "Egypt",
+      "Sweden",
+      "Mexico"
+    ],
+    "answer": [
+      "Egypt",
+      "Sweden",
+      "Mexico",
+      "Chile",
+      "Japan",
+      "Philippines"
+    ],
+    "hint": "fewest → most active volcanoes"
+  },
+  "2026-09-12": {
+    "prompt": "Order these roller coasters by maximum height, shortest to tallest",
+    "items": [
+      "Steel Vengeance",
+      "Kingda Ka",
+      "Top Thrill Dragster",
+      "Millennium Force",
+      "Fury 325",
+      "Superman: Escape from Krypton"
+    ],
+    "answer": [
+      "Millennium Force",
+      "Steel Vengeance",
+      "Fury 325",
+      "Superman: Escape from Krypton",
+      "Top Thrill Dragster",
+      "Kingda Ka"
+    ],
+    "hint": "shortest → tallest"
+  },
+  "2026-09-13": {
+    "prompt": "Order these countries by average annual rainfall, driest to wettest",
+    "items": [
+      "Libya",
+      "Ireland",
+      "Peru",
+      "Spain",
+      "Colombia",
+      "Papua New Guinea"
+    ],
+    "answer": [
+      "Libya",
+      "Spain",
+      "Ireland",
+      "Peru",
+      "Colombia",
+      "Papua New Guinea"
+    ],
+    "hint": "driest → wettest"
+  },
+  "2026-09-14": {
+    "prompt": "Order these Pixar shorts by release year, oldest to newest",
+    "items": [
+      "Presto",
+      "Day & Night",
+      "Piper",
+      "Luxo Jr.",
+      "Tin Toy",
+      "Geri's Game"
+    ],
+    "answer": [
+      "Luxo Jr.",
+      "Tin Toy",
+      "Geri's Game",
+      "Presto",
+      "Day & Night",
+      "Piper"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-09-15": {
+    "prompt": "Order these countries by percentage of electricity from renewables, lowest to highest",
+    "items": [
+      "New Zealand",
+      "Norway",
+      "Albania",
+      "Kuwait",
+      "Poland",
+      "Denmark"
+    ],
+    "answer": [
+      "Kuwait",
+      "Poland",
+      "Denmark",
+      "New Zealand",
+      "Norway",
+      "Albania"
+    ],
+    "hint": "lowest → highest renewable electricity"
+  },
+  "2026-09-16": {
+    "prompt": "Order these animals by top swimming speed, slowest to fastest",
+    "items": [
+      "Loggerhead Sea Turtle",
+      "Mako Shark",
+      "Flying Fish",
+      "Dall's Porpoise",
+      "Orca",
+      "Wahoo"
+    ],
+    "answer": [
+      "Loggerhead Sea Turtle",
+      "Flying Fish",
+      "Orca",
+      "Dall's Porpoise",
+      "Mako Shark",
+      "Wahoo"
+    ],
+    "hint": "slowest → fastest swimmer"
+  },
+  "2026-09-17": {
+    "prompt": "Order these US states by population, smallest to largest",
+    "items": [
+      "Oklahoma",
+      "Michigan",
+      "Pennsylvania",
+      "Vermont",
+      "North Dakota",
+      "Arkansas"
+    ],
+    "answer": [
+      "Vermont",
+      "North Dakota",
+      "Arkansas",
+      "Oklahoma",
+      "Michigan",
+      "Pennsylvania"
+    ],
+    "hint": "smallest → largest population"
+  },
+  "2026-09-18": {
+    "prompt": "Order these famous chefs by birth year, oldest to newest",
+    "items": [
+      "Julia Child",
+      "Jacques Pepin",
+      "Gordon Ramsay",
+      "Thomas Keller",
+      "Ferran Adria",
+      "Rene Redzepi"
+    ],
+    "answer": [
+      "Julia Child",
+      "Jacques Pepin",
+      "Thomas Keller",
+      "Ferran Adria",
+      "Gordon Ramsay",
+      "Rene Redzepi"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-09-19": {
+    "prompt": "Order these countries by total gold reserves (tonnes), smallest to largest",
+    "items": [
+      "Brazil",
+      "Kazakhstan",
+      "Australia",
+      "Netherlands",
+      "Italy",
+      "United States"
+    ],
+    "answer": [
+      "Australia",
+      "Brazil",
+      "Kazakhstan",
+      "Netherlands",
+      "Italy",
+      "United States"
+    ],
+    "hint": "smallest → largest gold reserves"
+  },
+  "2026-09-20": {
+    "prompt": "Order these famous literary monsters by year their story was first published, oldest to newest",
+    "items": [
+      "Gollum",
+      "Hannibal Lecter",
+      "Pennywise",
+      "Frankenstein's Monster",
+      "Dracula",
+      "The Invisible Man"
+    ],
+    "answer": [
+      "Frankenstein's Monster",
+      "Dracula",
+      "The Invisible Man",
+      "Gollum",
+      "Hannibal Lecter",
+      "Pennywise"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-09-21": {
+    "prompt": "Order these countries by total area, smallest to largest",
+    "items": [
+      "Algeria",
+      "Kazakhstan",
+      "Antarctica",
+      "Pakistan",
+      "Sudan",
+      "Greenland"
+    ],
+    "answer": [
+      "Pakistan",
+      "Sudan",
+      "Greenland",
+      "Algeria",
+      "Kazakhstan",
+      "Antarctica"
+    ],
+    "hint": "smallest → largest"
+  },
+  "2026-09-22": {
+    "prompt": "Order these drugs/medicines by year of discovery or first use, oldest to newest",
+    "items": [
+      "Aspirin",
+      "Morphine",
+      "Penicillin",
+      "Insulin",
+      "Prozac",
+      "Viagra"
+    ],
+    "answer": [
+      "Morphine",
+      "Aspirin",
+      "Insulin",
+      "Penicillin",
+      "Prozac",
+      "Viagra"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-09-23": {
+    "prompt": "Order these famous comedians by birth year, oldest to newest",
+    "items": [
+      "George Carlin",
+      "Richard Pryor",
+      "Charlie Chaplin",
+      "Eddie Murphy",
+      "Chris Rock",
+      "Dave Chappelle"
+    ],
+    "answer": [
+      "Charlie Chaplin",
+      "Richard Pryor",
+      "George Carlin",
+      "Eddie Murphy",
+      "Chris Rock",
+      "Dave Chappelle"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-09-24": {
+    "prompt": "Order these countries by population density (people per sq km), lowest to highest",
+    "items": [
+      "Spain",
+      "Belgium",
+      "Bangladesh",
+      "Mongolia",
+      "Namibia",
+      "Botswana"
+    ],
+    "answer": [
+      "Mongolia",
+      "Namibia",
+      "Botswana",
+      "Spain",
+      "Belgium",
+      "Bangladesh"
+    ],
+    "hint": "lowest → highest population density"
+  },
+  "2026-09-25": {
+    "prompt": "Order these major sporting events by year of their first edition, oldest to newest",
+    "items": [
+      "Super Bowl",
+      "Wimbledon",
+      "US Open (Tennis)",
+      "FIFA World Cup",
+      "Tour de France",
+      "Boston Marathon"
+    ],
+    "answer": [
+      "Wimbledon",
+      "US Open (Tennis)",
+      "Boston Marathon",
+      "Tour de France",
+      "FIFA World Cup",
+      "Super Bowl"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-09-26": {
+    "prompt": "Order these musical artists by number of Grammy Awards won, fewest to most",
+    "items": [
+      "Ed Sheeran",
+      "Jay-Z",
+      "Adele",
+      "Stevie Wonder",
+      "Georg Solti",
+      "Beyonce"
+    ],
+    "answer": [
+      "Ed Sheeran",
+      "Adele",
+      "Jay-Z",
+      "Stevie Wonder",
+      "Beyonce",
+      "Georg Solti"
+    ],
+    "hint": "fewest → most Grammy wins"
+  },
+  "2026-09-27": {
+    "prompt": "Order these countries by number of Michelin-starred restaurants, fewest to most",
+    "items": [
+      "Hong Kong",
+      "France",
+      "Japan",
+      "Luxembourg",
+      "Austria",
+      "Belgium"
+    ],
+    "answer": [
+      "Luxembourg",
+      "Austria",
+      "Belgium",
+      "Hong Kong",
+      "France",
+      "Japan"
+    ],
+    "hint": "fewest → most Michelin stars"
+  },
+  "2026-09-28": {
+    "prompt": "Order these famous stadiums by seating capacity, smallest to largest",
+    "items": [
+      "Wimbledon Centre Court",
+      "Wembley Stadium",
+      "Camp Nou",
+      "Melbourne Cricket Ground",
+      "Rungrado 1st of May Stadium",
+      "Michigan Stadium"
+    ],
+    "answer": [
+      "Wimbledon Centre Court",
+      "Melbourne Cricket Ground",
+      "Wembley Stadium",
+      "Camp Nou",
+      "Michigan Stadium",
+      "Rungrado 1st of May Stadium"
+    ],
+    "hint": "smallest → largest capacity"
+  },
+  "2026-09-29": {
+    "prompt": "Order these fish by maximum recorded weight, lightest to heaviest",
+    "items": [
+      "Atlantic Tuna",
+      "Mahi-Mahi",
+      "Whale Shark",
+      "Ocean Sunfish",
+      "Halibut",
+      "Blue Marlin"
+    ],
+    "answer": [
+      "Mahi-Mahi",
+      "Halibut",
+      "Blue Marlin",
+      "Atlantic Tuna",
+      "Ocean Sunfish",
+      "Whale Shark"
+    ],
+    "hint": "lightest → heaviest"
+  },
+  "2026-09-30": {
+    "prompt": "Order these world leaders by total years in power, shortest to longest",
+    "items": [
+      "Boris Johnson",
+      "Angela Merkel",
+      "Margaret Thatcher",
+      "Fidel Castro",
+      "Lee Kuan Yew",
+      "Robert Mugabe"
+    ],
+    "answer": [
+      "Boris Johnson",
+      "Margaret Thatcher",
+      "Angela Merkel",
+      "Lee Kuan Yew",
+      "Robert Mugabe",
+      "Fidel Castro"
+    ],
+    "hint": "shortest → longest tenure"
+  },
+  "2026-10-01": {
+    "prompt": "Order these Marvel Cinematic Universe films by box office gross, lowest to highest",
+    "items": [
+      "Thor",
+      "Spider-Man: No Way Home",
+      "Iron Man 3",
+      "Doctor Strange",
+      "Captain Marvel",
+      "Ant-Man"
+    ],
+    "answer": [
+      "Ant-Man",
+      "Thor",
+      "Doctor Strange",
+      "Iron Man 3",
+      "Captain Marvel",
+      "Spider-Man: No Way Home"
+    ],
+    "hint": "lowest → highest gross"
+  },
+  "2026-10-02": {
+    "prompt": "Order these countries by number of nuclear warheads, fewest to most",
+    "items": [
+      "Israel",
+      "North Korea",
+      "India",
+      "Pakistan",
+      "China",
+      "Russia"
+    ],
+    "answer": [
+      "North Korea",
+      "Israel",
+      "India",
+      "Pakistan",
+      "China",
+      "Russia"
+    ],
+    "hint": "fewest → most nuclear warheads"
+  },
+  "2026-10-03": {
+    "prompt": "Order these Halloween candy favorites by calories per piece, lowest to highest",
+    "items": [
+      "Smarties",
+      "Kit Kat",
+      "Snickers",
+      "Candy Corn",
+      "Reese's Peanut Butter Cup",
+      "M&Ms"
+    ],
+    "answer": [
+      "Smarties",
+      "Candy Corn",
+      "M&Ms",
+      "Kit Kat",
+      "Reese's Peanut Butter Cup",
+      "Snickers"
+    ],
+    "hint": "lowest → highest calories"
+  },
+  "2026-10-04": {
+    "prompt": "Order these countries by size of fishing catch (annual volume), smallest to largest",
+    "items": [
+      "Norway",
+      "India",
+      "Indonesia",
+      "Japan",
+      "Peru",
+      "China"
+    ],
+    "answer": [
+      "Norway",
+      "Japan",
+      "Indonesia",
+      "Peru",
+      "India",
+      "China"
+    ],
+    "hint": "smallest → largest catch"
+  },
+  "2026-10-05": {
+    "prompt": "Order these famous architects by birth year, oldest to newest",
+    "items": [
+      "Frank Lloyd Wright",
+      "Antoni Gaudi",
+      "I.M. Pei",
+      "Zaha Hadid",
+      "Le Corbusier",
+      "Mies van der Rohe"
+    ],
+    "answer": [
+      "Antoni Gaudi",
+      "Frank Lloyd Wright",
+      "Le Corbusier",
+      "Mies van der Rohe",
+      "I.M. Pei",
+      "Zaha Hadid"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-10-06": {
+    "prompt": "Order these countries by total wine production, smallest to largest",
+    "items": [
+      "Australia",
+      "Spain",
+      "France",
+      "New Zealand",
+      "Chile",
+      "Argentina"
+    ],
+    "answer": [
+      "New Zealand",
+      "Chile",
+      "Argentina",
+      "Australia",
+      "Spain",
+      "France"
+    ],
+    "hint": "smallest → largest wine production"
+  },
+  "2026-10-07": {
+    "prompt": "Order these US states by year of admission to the Union, oldest to newest",
+    "items": [
+      "Arizona",
+      "Utah",
+      "Minnesota",
+      "Louisiana",
+      "Delaware",
+      "Colorado"
+    ],
+    "answer": [
+      "Delaware",
+      "Louisiana",
+      "Minnesota",
+      "Utah",
+      "Colorado",
+      "Arizona"
+    ],
+    "hint": "oldest → newest admission"
+  },
+  "2026-10-08": {
+    "prompt": "Order these books in the Harry Potter series, first to last",
+    "items": [
+      "Harry Potter and the Goblet of Fire",
+      "Harry Potter and the Sorcerer's Stone",
+      "Harry Potter and the Order of the Phoenix",
+      "Harry Potter and the Chamber of Secrets",
+      "Harry Potter and the Deathly Hallows",
+      "Harry Potter and the Half-Blood Prince"
+    ],
+    "answer": [
+      "Harry Potter and the Sorcerer's Stone",
+      "Harry Potter and the Chamber of Secrets",
+      "Harry Potter and the Goblet of Fire",
+      "Harry Potter and the Order of the Phoenix",
+      "Harry Potter and the Half-Blood Prince",
+      "Harry Potter and the Deathly Hallows"
+    ],
+    "hint": "first → last in series"
+  },
+  "2026-10-09": {
+    "prompt": "Order these countries by average highway speed limit, lowest to highest (km/h)",
+    "items": [
+      "Japan",
+      "United States",
+      "Italy",
+      "Poland",
+      "Australia",
+      "Germany Autobahn"
+    ],
+    "answer": [
+      "Japan",
+      "United States",
+      "Australia",
+      "Italy",
+      "Poland",
+      "Germany Autobahn"
+    ],
+    "hint": "lowest → highest speed limit"
+  },
+  "2026-10-10": {
+    "prompt": "Order these countries by number of McDonald's locations, fewest to most",
+    "items": [
+      "Spain",
+      "Canada",
+      "Australia",
+      "France",
+      "Japan",
+      "United States"
+    ],
+    "answer": [
+      "Spain",
+      "Australia",
+      "Canada",
+      "France",
+      "Japan",
+      "United States"
+    ],
+    "hint": "fewest → most McDonald's locations"
+  },
+  "2026-10-11": {
+    "prompt": "Order these planets by diameter, smallest to largest",
+    "items": [
+      "Mars",
+      "Earth",
+      "Neptune",
+      "Saturn",
+      "Venus",
+      "Jupiter"
+    ],
+    "answer": [
+      "Mars",
+      "Venus",
+      "Earth",
+      "Neptune",
+      "Saturn",
+      "Jupiter"
+    ],
+    "hint": "smallest → largest diameter"
+  },
+  "2026-10-12": {
+    "prompt": "Order these countries by ratio of doctors per 1000 people, fewest to most",
+    "items": [
+      "Brazil",
+      "Australia",
+      "Cuba",
+      "Ethiopia",
+      "Kenya",
+      "Bangladesh"
+    ],
+    "answer": [
+      "Ethiopia",
+      "Kenya",
+      "Bangladesh",
+      "Brazil",
+      "Australia",
+      "Cuba"
+    ],
+    "hint": "fewest → most doctors per 1000"
+  },
+  "2026-10-13": {
+    "prompt": "Order these countries by length of paid maternity leave, shortest to longest",
+    "items": [
+      "Canada",
+      "Germany",
+      "Sweden",
+      "United States",
+      "Egypt",
+      "Australia"
+    ],
+    "answer": [
+      "United States",
+      "Egypt",
+      "Australia",
+      "Canada",
+      "Germany",
+      "Sweden"
+    ],
+    "hint": "shortest → longest maternity leave"
+  },
+  "2026-10-14": {
+    "prompt": "Order these countries by coffee consumption per capita, lowest to highest",
+    "items": [
+      "China",
+      "United States",
+      "Italy",
+      "Sweden",
+      "Finland",
+      "Luxembourg"
+    ],
+    "answer": [
+      "China",
+      "United States",
+      "Italy",
+      "Sweden",
+      "Luxembourg",
+      "Finland"
+    ],
+    "hint": "lowest → highest coffee consumption"
+  },
+  "2026-10-15": {
+    "prompt": "Order these countries by average annual hours worked per employee, fewest to most",
+    "items": [
+      "United States",
+      "South Korea",
+      "Mexico",
+      "Germany",
+      "France",
+      "United Kingdom"
+    ],
+    "answer": [
+      "Germany",
+      "France",
+      "United Kingdom",
+      "United States",
+      "South Korea",
+      "Mexico"
+    ],
+    "hint": "fewest → most hours worked"
+  },
+  "2026-10-16": {
+    "prompt": "Order these countries by forest coverage percentage, least to most forested",
+    "items": [
+      "Australia",
+      "Sweden",
+      "Suriname",
+      "Egypt",
+      "Saudi Arabia",
+      "Mongolia"
+    ],
+    "answer": [
+      "Egypt",
+      "Saudi Arabia",
+      "Mongolia",
+      "Australia",
+      "Sweden",
+      "Suriname"
+    ],
+    "hint": "least → most forested"
+  },
+  "2026-10-17": {
+    "prompt": "Order these foods by protein content per 100g, lowest to highest",
+    "items": [
+      "Banana",
+      "Whole Egg",
+      "Greek Yogurt",
+      "Canned Tuna",
+      "Tempeh",
+      "Dried Lentils"
+    ],
+    "answer": [
+      "Banana",
+      "Whole Egg",
+      "Greek Yogurt",
+      "Dried Lentils",
+      "Canned Tuna",
+      "Tempeh"
+    ],
+    "hint": "lowest → highest protein"
+  },
+  "2026-10-18": {
+    "prompt": "Order these famous battles of WWI chronologically",
+    "items": [
+      "Battle of the Marne",
+      "Battle of Verdun",
+      "Battle of Gallipoli",
+      "Battle of the Somme",
+      "Battle of Passchendaele",
+      "Battle of Amiens"
+    ],
+    "answer": [
+      "Battle of the Marne",
+      "Battle of Gallipoli",
+      "Battle of Verdun",
+      "Battle of the Somme",
+      "Battle of Passchendaele",
+      "Battle of Amiens"
+    ],
+    "hint": "earliest → latest"
+  },
+  "2026-10-19": {
+    "prompt": "Order these countries by number of satellites in orbit, fewest to most",
+    "items": [
+      "Russia",
+      "China",
+      "United States",
+      "Israel",
+      "Germany",
+      "Japan"
+    ],
+    "answer": [
+      "Israel",
+      "Germany",
+      "Japan",
+      "Russia",
+      "China",
+      "United States"
+    ],
+    "hint": "fewest → most satellites"
+  },
+  "2026-10-20": {
+    "prompt": "Order these countries by beer consumption per capita, lowest to highest",
+    "items": [
+      "India",
+      "United States",
+      "Australia",
+      "Germany",
+      "Czech Republic",
+      "Austria"
+    ],
+    "answer": [
+      "India",
+      "United States",
+      "Australia",
+      "Austria",
+      "Germany",
+      "Czech Republic"
+    ],
+    "hint": "lowest → highest beer consumption"
+  },
+  "2026-10-21": {
+    "prompt": "Order these countries by number of languages spoken, fewest to most",
+    "items": [
+      "Mexico",
+      "Nigeria",
+      "Cameroon",
+      "Iceland",
+      "South Korea",
+      "Sweden"
+    ],
+    "answer": [
+      "Iceland",
+      "South Korea",
+      "Sweden",
+      "Mexico",
+      "Nigeria",
+      "Cameroon"
+    ],
+    "hint": "fewest → most languages spoken"
+  },
+  "2026-10-22": {
+    "prompt": "Order these planets by number of known moons, fewest to most",
+    "items": [
+      "Earth",
+      "Mars",
+      "Uranus",
+      "Saturn",
+      "Neptune",
+      "Jupiter"
+    ],
+    "answer": [
+      "Earth",
+      "Mars",
+      "Neptune",
+      "Uranus",
+      "Saturn",
+      "Jupiter"
+    ],
+    "hint": "fewest → most moons"
+  },
+  "2026-10-23": {
+    "prompt": "Order these countries by total public debt as a percentage of GDP, lowest to highest",
+    "items": [
+      "United States",
+      "Italy",
+      "Japan",
+      "Russia",
+      "Estonia",
+      "Australia"
+    ],
+    "answer": [
+      "Russia",
+      "Estonia",
+      "Australia",
+      "United States",
+      "Italy",
+      "Japan"
+    ],
+    "hint": "lowest → highest debt-to-GDP"
+  },
+  "2026-10-24": {
+    "prompt": "Order these countries by minimum voting age, youngest to oldest",
+    "items": [
+      "Cuba",
+      "Austria",
+      "Scotland",
+      "United States",
+      "Japan",
+      "United Arab Emirates"
+    ],
+    "answer": [
+      "Cuba",
+      "Scotland",
+      "Austria",
+      "United States",
+      "Japan",
+      "United Arab Emirates"
+    ],
+    "hint": "youngest → oldest voting age"
+  },
+  "2026-10-25": {
+    "prompt": "Order these DC Comics films by release year, oldest to newest",
+    "items": [
+      "Wonder Woman",
+      "Man of Steel",
+      "The Dark Knight Rises",
+      "Aquaman",
+      "Joker",
+      "Batman v Superman"
+    ],
+    "answer": [
+      "The Dark Knight Rises",
+      "Man of Steel",
+      "Batman v Superman",
+      "Wonder Woman",
+      "Aquaman",
+      "Joker"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-10-26": {
+    "prompt": "Order these countries by number of airports, fewest to most",
+    "items": [
+      "Brazil",
+      "Russia",
+      "United States",
+      "Portugal",
+      "New Zealand",
+      "Australia"
+    ],
+    "answer": [
+      "Portugal",
+      "New Zealand",
+      "Australia",
+      "Brazil",
+      "Russia",
+      "United States"
+    ],
+    "hint": "fewest → most airports"
+  },
+  "2026-10-27": {
+    "prompt": "Order these countries by average household size, smallest to largest",
+    "items": [
+      "India",
+      "Nigeria",
+      "Afghanistan",
+      "Sweden",
+      "United States",
+      "Brazil"
+    ],
+    "answer": [
+      "Sweden",
+      "United States",
+      "Brazil",
+      "India",
+      "Nigeria",
+      "Afghanistan"
+    ],
+    "hint": "smallest → largest household"
+  },
+  "2026-10-28": {
+    "prompt": "Order these countries by percentage of women in parliament, lowest to highest",
+    "items": [
+      "Iran",
+      "Hungary",
+      "United Kingdom",
+      "Sweden",
+      "Rwanda",
+      "Iceland"
+    ],
+    "answer": [
+      "Iran",
+      "Hungary",
+      "United Kingdom",
+      "Sweden",
+      "Iceland",
+      "Rwanda"
+    ],
+    "hint": "lowest → highest % women in parliament"
+  },
+  "2026-10-29": {
+    "prompt": "Order these countries by total railway network length, shortest to longest",
+    "items": [
+      "Australia",
+      "India",
+      "United States",
+      "Portugal",
+      "Argentina",
+      "Germany"
+    ],
+    "answer": [
+      "Portugal",
+      "Argentina",
+      "Germany",
+      "Australia",
+      "India",
+      "United States"
+    ],
+    "hint": "shortest → longest railway network"
+  },
+  "2026-10-30": {
+    "prompt": "Order these countries by number of spoken endangered languages, fewest to most",
+    "items": [
+      "Brazil",
+      "India",
+      "Australia",
+      "Morocco",
+      "Mexico",
+      "Nigeria"
+    ],
+    "answer": [
+      "Morocco",
+      "Mexico",
+      "Nigeria",
+      "Brazil",
+      "India",
+      "Australia"
+    ],
+    "hint": "fewest → most endangered languages"
+  },
+  "2026-10-31": {
+    "prompt": "Order these countries by internet usage rate, lowest to highest",
+    "items": [
+      "Vietnam",
+      "Sweden",
+      "South Korea",
+      "Somalia",
+      "Bangladesh",
+      "South Africa"
+    ],
+    "answer": [
+      "Somalia",
+      "Bangladesh",
+      "South Africa",
+      "Vietnam",
+      "Sweden",
+      "South Korea"
+    ],
+    "hint": "lowest → highest internet usage"
+  },
+  "2026-11-01": {
+    "prompt": "Order these countries by number of World Heritage Sites, fewest to most",
+    "items": [
+      "New Zealand",
+      "Peru",
+      "Egypt",
+      "Turkey",
+      "France",
+      "China"
+    ],
+    "answer": [
+      "New Zealand",
+      "Egypt",
+      "Peru",
+      "Turkey",
+      "France",
+      "China"
+    ],
+    "hint": "fewest → most World Heritage Sites"
+  },
+  "2026-11-02": {
+    "prompt": "Order these world cities by population of their urban area, smallest to largest",
+    "items": [
+      "Cairo",
+      "Delhi",
+      "Tokyo",
+      "Vienna",
+      "Accra",
+      "Istanbul"
+    ],
+    "answer": [
+      "Vienna",
+      "Accra",
+      "Istanbul",
+      "Cairo",
+      "Delhi",
+      "Tokyo"
+    ],
+    "hint": "smallest → largest urban population"
+  },
+  "2026-11-03": {
+    "prompt": "Order these countries by Nobel Prize winners in Literature, fewest to most",
+    "items": [
+      "Germany",
+      "Sweden",
+      "France",
+      "Denmark",
+      "Russia",
+      "United States"
+    ],
+    "answer": [
+      "Denmark",
+      "Russia",
+      "United States",
+      "Germany",
+      "Sweden",
+      "France"
+    ],
+    "hint": "fewest → most Nobel Literature prizes"
+  },
+  "2026-11-04": {
+    "prompt": "Order these countries by smartphone penetration rate, lowest to highest",
+    "items": [
+      "Brazil",
+      "Germany",
+      "South Korea",
+      "Ethiopia",
+      "Pakistan",
+      "Philippines"
+    ],
+    "answer": [
+      "Ethiopia",
+      "Pakistan",
+      "Philippines",
+      "Brazil",
+      "Germany",
+      "South Korea"
+    ],
+    "hint": "lowest → highest smartphone penetration"
+  },
+  "2026-11-05": {
+    "prompt": "Order these Thanksgiving foods by calorie count per typical serving, lowest to highest",
+    "items": [
+      "Turkey",
+      "Cranberry Sauce",
+      "Mashed Potatoes",
+      "Pumpkin Pie",
+      "Stuffing",
+      "Pecan Pie"
+    ],
+    "answer": [
+      "Turkey",
+      "Cranberry Sauce",
+      "Mashed Potatoes",
+      "Stuffing",
+      "Pumpkin Pie",
+      "Pecan Pie"
+    ],
+    "hint": "lowest → highest calories"
+  },
+  "2026-11-06": {
+    "prompt": "Order these countries by average internet connection speed, slowest to fastest",
+    "items": [
+      "United States",
+      "South Korea",
+      "Singapore",
+      "Cuba",
+      "Afghanistan",
+      "Brazil"
+    ],
+    "answer": [
+      "Cuba",
+      "Afghanistan",
+      "Brazil",
+      "United States",
+      "South Korea",
+      "Singapore"
+    ],
+    "hint": "slowest → fastest internet"
+  },
+  "2026-11-07": {
+    "prompt": "Order these countries by tea consumption per capita, lowest to highest",
+    "items": [
+      "United States",
+      "Australia",
+      "United Kingdom",
+      "Iran",
+      "China",
+      "Turkey"
+    ],
+    "answer": [
+      "United States",
+      "Australia",
+      "United Kingdom",
+      "China",
+      "Iran",
+      "Turkey"
+    ],
+    "hint": "lowest → highest tea consumption"
+  },
+  "2026-11-08": {
+    "prompt": "Order these countries by daily meat consumption per capita, lowest to highest",
+    "items": [
+      "Brazil",
+      "Australia",
+      "United States",
+      "India",
+      "Ethiopia",
+      "Indonesia"
+    ],
+    "answer": [
+      "India",
+      "Ethiopia",
+      "Indonesia",
+      "Brazil",
+      "Australia",
+      "United States"
+    ],
+    "hint": "lowest → highest meat consumption"
+  },
+  "2026-11-09": {
+    "prompt": "Order these countries by number of billionaires, fewest to most",
+    "items": [
+      "India",
+      "China",
+      "United States",
+      "Sweden",
+      "South Korea",
+      "Saudi Arabia"
+    ],
+    "answer": [
+      "Sweden",
+      "South Korea",
+      "Saudi Arabia",
+      "India",
+      "China",
+      "United States"
+    ],
+    "hint": "fewest → most billionaires"
+  },
+  "2026-11-10": {
+    "prompt": "Order these countries by number of active military personnel, fewest to most",
+    "items": [
+      "Pakistan",
+      "India",
+      "China",
+      "Switzerland",
+      "Japan",
+      "Brazil"
+    ],
+    "answer": [
+      "Switzerland",
+      "Japan",
+      "Brazil",
+      "Pakistan",
+      "India",
+      "China"
+    ],
+    "hint": "fewest → most active military"
+  },
+  "2026-11-11": {
+    "prompt": "Order these countries by percent of land that is protected, lowest to highest",
+    "items": [
+      "Germany",
+      "Canada",
+      "Venezuela",
+      "Egypt",
+      "China",
+      "India"
+    ],
+    "answer": [
+      "Egypt",
+      "China",
+      "India",
+      "Germany",
+      "Canada",
+      "Venezuela"
+    ],
+    "hint": "lowest → highest protected land %"
+  },
+  "2026-11-12": {
+    "prompt": "Order these countries by total road network length, shortest to longest",
+    "items": [
+      "Canada",
+      "India",
+      "United States",
+      "New Zealand",
+      "France",
+      "Australia"
+    ],
+    "answer": [
+      "New Zealand",
+      "France",
+      "Australia",
+      "Canada",
+      "India",
+      "United States"
+    ],
+    "hint": "shortest → longest road network"
+  },
+  "2026-11-13": {
+    "prompt": "Order these US cities by number of Fortune 500 companies headquartered there, fewest to most",
+    "items": [
+      "Chicago",
+      "Houston",
+      "New York City",
+      "Minneapolis",
+      "Boston",
+      "San Francisco"
+    ],
+    "answer": [
+      "Minneapolis",
+      "Boston",
+      "San Francisco",
+      "Chicago",
+      "Houston",
+      "New York City"
+    ],
+    "hint": "fewest → most Fortune 500 HQs"
+  },
+  "2026-11-14": {
+    "prompt": "Order these famous literary works by publication year, oldest to newest",
+    "items": [
+      "Ulysses",
+      "War and Peace",
+      "Frankenstein",
+      "The Odyssey",
+      "Slaughterhouse-Five",
+      "The Road"
+    ],
+    "answer": [
+      "The Odyssey",
+      "Frankenstein",
+      "War and Peace",
+      "Ulysses",
+      "Slaughterhouse-Five",
+      "The Road"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-11-15": {
+    "prompt": "Order these countries by average annual hours worked per employee (alternative), fewest to most",
+    "items": [
+      "Portugal",
+      "Greece",
+      "Mexico",
+      "Denmark",
+      "Norway",
+      "Netherlands"
+    ],
+    "answer": [
+      "Denmark",
+      "Norway",
+      "Netherlands",
+      "Portugal",
+      "Greece",
+      "Mexico"
+    ],
+    "hint": "fewest → most hours worked"
+  },
+  "2026-11-16": {
+    "prompt": "Order these countries by number of Summer Olympic gold medals won, fewest to most",
+    "items": [
+      "Cuba",
+      "Australia",
+      "South Korea",
+      "Japan",
+      "Great Britain",
+      "Soviet Union"
+    ],
+    "answer": [
+      "Cuba",
+      "South Korea",
+      "Japan",
+      "Great Britain",
+      "Australia",
+      "Soviet Union"
+    ],
+    "hint": "fewest → most Olympic gold medals"
+  },
+  "2026-11-17": {
+    "prompt": "Order these countries by oldest constitution currently in effect, newest to oldest",
+    "items": [
+      "Japan",
+      "United States",
+      "San Marino",
+      "Nepal",
+      "South Africa",
+      "Germany"
+    ],
+    "answer": [
+      "Nepal",
+      "South Africa",
+      "Germany",
+      "Japan",
+      "United States",
+      "San Marino"
+    ],
+    "hint": "newest → oldest constitution"
+  },
+  "2026-11-18": {
+    "prompt": "Order these countries by number of nuclear power plants, fewest to most",
+    "items": [
+      "United Kingdom",
+      "France",
+      "United States",
+      "South Africa",
+      "Netherlands",
+      "Switzerland"
+    ],
+    "answer": [
+      "South Africa",
+      "Netherlands",
+      "Switzerland",
+      "United Kingdom",
+      "France",
+      "United States"
+    ],
+    "hint": "fewest → most nuclear plants"
+  },
+  "2026-11-19": {
+    "prompt": "Order these countries by life expectancy, lowest to highest",
+    "items": [
+      "Thailand",
+      "Ireland",
+      "Singapore",
+      "Central African Republic",
+      "Haiti",
+      "Bolivia"
+    ],
+    "answer": [
+      "Central African Republic",
+      "Haiti",
+      "Bolivia",
+      "Thailand",
+      "Ireland",
+      "Singapore"
+    ],
+    "hint": "lowest → highest life expectancy"
+  },
+  "2026-11-20": {
+    "prompt": "Order these countries by average temperature (annual mean), coldest to warmest",
+    "items": [
+      "Brazil",
+      "Bahrain",
+      "Malaysia",
+      "Russia",
+      "Iceland",
+      "Canada"
+    ],
+    "answer": [
+      "Russia",
+      "Iceland",
+      "Canada",
+      "Brazil",
+      "Bahrain",
+      "Malaysia"
+    ],
+    "hint": "coldest → warmest average temperature"
+  },
+  "2026-11-21": {
+    "prompt": "Order these countries by FIFA World Cup titles won (men's), fewest to most",
+    "items": [
+      "Argentina",
+      "Germany",
+      "Brazil",
+      "Netherlands",
+      "England",
+      "Uruguay"
+    ],
+    "answer": [
+      "Netherlands",
+      "England",
+      "Uruguay",
+      "Argentina",
+      "Germany",
+      "Brazil"
+    ],
+    "hint": "fewest → most World Cup titles"
+  },
+  "2026-11-22": {
+    "prompt": "Order these countries by number of lakes, fewest to most",
+    "items": [
+      "United States",
+      "Russia",
+      "Canada",
+      "Morocco",
+      "Saudi Arabia",
+      "Australia"
+    ],
+    "answer": [
+      "Morocco",
+      "Saudi Arabia",
+      "Australia",
+      "United States",
+      "Russia",
+      "Canada"
+    ],
+    "hint": "fewest → most lakes"
+  },
+  "2026-11-23": {
+    "prompt": "Order these US elections by voter turnout percentage, lowest to highest",
+    "items": [
+      "1998 Midterm",
+      "2014 Midterm",
+      "2002 Midterm",
+      "1964 Presidential",
+      "2008 Presidential",
+      "2020 Presidential"
+    ],
+    "answer": [
+      "1998 Midterm",
+      "2014 Midterm",
+      "2002 Midterm",
+      "2008 Presidential",
+      "1964 Presidential",
+      "2020 Presidential"
+    ],
+    "hint": "lowest → highest turnout"
+  },
+  "2026-11-24": {
+    "prompt": "Order these countries by number of World Cup appearances (men's), fewest to most",
+    "items": [
+      "Argentina",
+      "Germany",
+      "Brazil",
+      "Australia",
+      "Ecuador",
+      "Iran"
+    ],
+    "answer": [
+      "Australia",
+      "Ecuador",
+      "Iran",
+      "Argentina",
+      "Germany",
+      "Brazil"
+    ],
+    "hint": "fewest → most World Cup appearances"
+  },
+  "2026-11-25": {
+    "prompt": "Order these famous athletes by career earnings (estimated), lowest to highest",
+    "items": [
+      "Roger Federer",
+      "Michael Schumacher",
+      "LeBron James",
+      "Tiger Woods",
+      "Cristiano Ronaldo",
+      "Floyd Mayweather"
+    ],
+    "answer": [
+      "Michael Schumacher",
+      "Roger Federer",
+      "Tiger Woods",
+      "LeBron James",
+      "Cristiano Ronaldo",
+      "Floyd Mayweather"
+    ],
+    "hint": "lowest → highest career earnings"
+  },
+  "2026-11-26": {
+    "prompt": "Order these Olympic sports by year first included in Summer Olympics, oldest to newest",
+    "items": [
+      "Table Tennis",
+      "Weightlifting",
+      "Taekwondo",
+      "Athletics",
+      "Judo",
+      "BMX Racing"
+    ],
+    "answer": [
+      "Athletics",
+      "Weightlifting",
+      "Judo",
+      "Table Tennis",
+      "Taekwondo",
+      "BMX Racing"
+    ],
+    "hint": "oldest → newest inclusion"
+  },
+  "2026-11-27": {
+    "prompt": "Order these countries by the year they joined the United Nations, oldest to newest",
+    "items": [
+      "Brazil",
+      "China",
+      "Germany",
+      "South Sudan",
+      "Switzerland",
+      "Bangladesh"
+    ],
+    "answer": [
+      "Brazil",
+      "China",
+      "Bangladesh",
+      "Germany",
+      "Switzerland",
+      "South Sudan"
+    ],
+    "hint": "earliest → latest UN membership"
+  },
+  "2026-11-28": {
+    "prompt": "Order these holiday movies by release year, oldest to newest",
+    "items": [
+      "Home Alone",
+      "Elf",
+      "A Christmas Story",
+      "It's a Wonderful Life",
+      "National Lampoon's Christmas Vacation",
+      "The Holiday"
+    ],
+    "answer": [
+      "It's a Wonderful Life",
+      "A Christmas Story",
+      "National Lampoon's Christmas Vacation",
+      "Home Alone",
+      "Elf",
+      "The Holiday"
+    ],
+    "hint": "oldest → newest"
+  },
+  "2026-11-29": {
+    "prompt": "Order these countries by carbon dioxide emissions per capita, lowest to highest",
+    "items": [
+      "South Africa",
+      "Canada",
+      "Kuwait",
+      "Nepal",
+      "Tanzania",
+      "Indonesia"
+    ],
+    "answer": [
+      "Nepal",
+      "Tanzania",
+      "Indonesia",
+      "South Africa",
+      "Canada",
+      "Kuwait"
+    ],
+    "hint": "lowest → highest CO2 per capita"
+  },
+  "2026-11-30": {
+    "prompt": "Order these countries by fertility rate (children per woman), lowest to highest",
+    "items": [
+      "Bangladesh",
+      "Nigeria",
+      "Mali",
+      "South Korea",
+      "Spain",
+      "Russia"
+    ],
+    "answer": [
+      "South Korea",
+      "Spain",
+      "Russia",
+      "Bangladesh",
+      "Nigeria",
+      "Mali"
+    ],
+    "hint": "lowest → highest fertility rate"
+  },
+  "2026-12-01": {
+    "prompt": "Order these countries by number of active military drones, fewest to most",
+    "items": [
+      "Israel",
+      "China",
+      "United States",
+      "Iran",
+      "Turkey",
+      "United Kingdom"
+    ],
+    "answer": [
+      "Iran",
+      "Turkey",
+      "United Kingdom",
+      "Israel",
+      "China",
+      "United States"
+    ],
+    "hint": "fewest → most military drones"
+  },
+  "2026-12-02": {
+    "prompt": "Order these famous art museums by collection size (number of works), fewest to most",
+    "items": [
+      "Tate Modern",
+      "Uffizi Gallery",
+      "The Met",
+      "Smithsonian American Art Museum",
+      "Louvre",
+      "Hermitage Museum"
+    ],
+    "answer": [
+      "Tate Modern",
+      "Uffizi Gallery",
+      "Smithsonian American Art Museum",
+      "The Met",
+      "Louvre",
+      "Hermitage Museum"
+    ],
+    "hint": "fewest → most works"
+  },
+  "2026-12-03": {
+    "prompt": "Order these countries by average household income, lowest to highest",
+    "items": [
+      "Serbia",
+      "Poland",
+      "Luxembourg",
+      "Nepal",
+      "Bolivia",
+      "Ukraine"
+    ],
+    "answer": [
+      "Nepal",
+      "Bolivia",
+      "Ukraine",
+      "Serbia",
+      "Poland",
+      "Luxembourg"
+    ],
+    "hint": "lowest → highest household income"
+  },
+  "2026-12-04": {
+    "prompt": "Order these planets by rotation period (day length), shortest to longest",
+    "items": [
+      "Earth",
+      "Jupiter",
+      "Mars",
+      "Saturn",
+      "Mercury",
+      "Venus"
+    ],
+    "answer": [
+      "Jupiter",
+      "Saturn",
+      "Earth",
+      "Mars",
+      "Mercury",
+      "Venus"
+    ],
+    "hint": "shortest → longest day"
+  },
+  "2026-12-05": {
+    "prompt": "Order these countries by average school year length (days), fewest to most",
+    "items": [
+      "China",
+      "Japan",
+      "South Korea",
+      "United States",
+      "Denmark",
+      "Germany"
+    ],
+    "answer": [
+      "United States",
+      "Denmark",
+      "Germany",
+      "China",
+      "Japan",
+      "South Korea"
+    ],
+    "hint": "fewest → most school days per year"
+  },
+  "2026-12-06": {
+    "prompt": "Order these countries by total gold reserves (tonnes), smallest to largest",
+    "items": [
+      "Russia",
+      "China",
+      "Germany",
+      "New Zealand",
+      "Kuwait",
+      "Austria"
+    ],
+    "answer": [
+      "New Zealand",
+      "Kuwait",
+      "Austria",
+      "Russia",
+      "China",
+      "Germany"
+    ],
+    "hint": "smallest → largest gold reserves"
+  },
+  "2026-12-07": {
+    "prompt": "Order these countries by number of tourists received per year, fewest to most",
+    "items": [
+      "United Kingdom",
+      "United States",
+      "France",
+      "Morocco",
+      "Malaysia",
+      "Turkey"
+    ],
+    "answer": [
+      "Morocco",
+      "Malaysia",
+      "Turkey",
+      "United Kingdom",
+      "United States",
+      "France"
+    ],
+    "hint": "fewest → most tourists"
+  },
+  "2026-12-08": {
+    "prompt": "Order these famous athletes by the age at which they won their first title, youngest to oldest",
+    "items": [
+      "Tiger Woods",
+      "Pete Sampras",
+      "Pele",
+      "Nadia Comaneci",
+      "Wayne Gretzky",
+      "Michael Jordan"
+    ],
+    "answer": [
+      "Nadia Comaneci",
+      "Pele",
+      "Tiger Woods",
+      "Wayne Gretzky",
+      "Pete Sampras",
+      "Michael Jordan"
+    ],
+    "hint": "youngest → oldest first title"
+  },
+  "2026-12-09": {
+    "prompt": "Order these seas by surface area, smallest to largest",
+    "items": [
+      "Arabian Sea",
+      "Ross Sea",
+      "Weddell Sea",
+      "Coral Sea",
+      "South China Sea",
+      "Philippine Sea"
+    ],
+    "answer": [
+      "Ross Sea",
+      "Weddell Sea",
+      "South China Sea",
+      "Arabian Sea",
+      "Coral Sea",
+      "Philippine Sea"
+    ],
+    "hint": "smallest → largest"
+  },
+  "2026-12-10": {
+    "prompt": "Order these elements by boiling point, lowest to highest",
+    "items": [
+      "Sulfur",
+      "Tungsten",
+      "Bromine",
+      "Nitrogen",
+      "Mercury",
+      "Chlorine"
+    ],
+    "answer": [
+      "Nitrogen",
+      "Chlorine",
+      "Bromine",
+      "Mercury",
+      "Sulfur",
+      "Tungsten"
+    ],
+    "hint": "lowest → highest"
+  },
+  "2026-12-11": {
+    "prompt": "Order these island nations by total land area, smallest to largest",
+    "items": [
+      "Jamaica",
+      "Bahrain",
+      "Grenada",
+      "Trinidad and Tobago",
+      "Singapore",
+      "Barbados"
+    ],
+    "answer": [
+      "Grenada",
+      "Barbados",
+      "Singapore",
+      "Bahrain",
+      "Trinidad and Tobago",
+      "Jamaica"
+    ],
+    "hint": "smallest → largest"
+  },
+  "2026-12-12": {
+    "prompt": "Order these countries by number of cars per 1000 people, fewest to most",
+    "items": [
+      "Brazil",
+      "Italy",
+      "United States",
+      "Ethiopia",
+      "India",
+      "China"
+    ],
+    "answer": [
+      "Ethiopia",
+      "India",
+      "China",
+      "Brazil",
+      "Italy",
+      "United States"
+    ],
+    "hint": "fewest → most cars per capita"
+  },
+  "2026-12-13": {
+    "prompt": "Order these countries by beer consumption per capita (alternative), lowest to highest",
+    "items": [
+      "Portugal",
+      "Ireland",
+      "Czech Republic",
+      "Saudi Arabia",
+      "Algeria",
+      "Morocco"
+    ],
+    "answer": [
+      "Saudi Arabia",
+      "Algeria",
+      "Morocco",
+      "Portugal",
+      "Ireland",
+      "Czech Republic"
+    ],
+    "hint": "lowest → highest beer consumption"
+  },
+  "2026-12-14": {
+    "prompt": "Order these US national parks by area, smallest to largest",
+    "items": [
+      "Yellowstone",
+      "Acadia",
+      "Everglades",
+      "Gates of the Arctic",
+      "Biscayne",
+      "Saguaro"
+    ],
+    "answer": [
+      "Acadia",
+      "Saguaro",
+      "Biscayne",
+      "Everglades",
+      "Yellowstone",
+      "Gates of the Arctic"
+    ],
+    "hint": "smallest → largest"
+  },
+  "2026-12-15": {
+    "prompt": "Order these countries by total wine production, smallest to largest",
+    "items": [
+      "United States",
+      "Germany",
+      "Italy",
+      "Uruguay",
+      "South Africa",
+      "Portugal"
+    ],
+    "answer": [
+      "Uruguay",
+      "South Africa",
+      "Portugal",
+      "United States",
+      "Germany",
+      "Italy"
+    ],
+    "hint": "smallest → largest wine production"
+  },
+  "2026-12-16": {
+    "prompt": "Order these countries by number of UNESCO-listed intangible cultural heritages, fewest to most",
+    "items": [
+      "New Zealand",
+      "Brazil",
+      "Japan",
+      "South Korea",
+      "China",
+      "France"
+    ],
+    "answer": [
+      "New Zealand",
+      "Brazil",
+      "South Korea",
+      "Japan",
+      "France",
+      "China"
+    ],
+    "hint": "fewest → most intangible heritages"
+  },
+  "2026-12-17": {
+    "prompt": "Order these countries by happiness index score, least to most happy (2023 World Happiness Report)",
+    "items": [
+      "Venezuela",
+      "Latvia",
+      "Finland",
+      "Afghanistan",
+      "Zimbabwe",
+      "Lebanon"
+    ],
+    "answer": [
+      "Afghanistan",
+      "Zimbabwe",
+      "Lebanon",
+      "Venezuela",
+      "Latvia",
+      "Finland"
+    ],
+    "hint": "least → most happy"
   }
 }
