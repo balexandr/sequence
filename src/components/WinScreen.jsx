@@ -13,7 +13,7 @@ function getTimeToMidnight() {
   return { hours, minutes, seconds };
 }
 
-export default function WinScreen({ gameStatus, attempts, answer, lastGuess, prompt, puzzleNumber, generateShareText, stats, winPct }) {
+export default function WinScreen({ gameStatus, attempts, answer, lastGuess, prompt, puzzleNumber, generateShareText, stats, winPct, onDismiss }) {
   const [copied, setCopied] = useState(false);
   const [countdown, setCountdown] = useState(getTimeToMidnight());
   const [showContent, setShowContent] = useState(false);
@@ -62,6 +62,7 @@ export default function WinScreen({ gameStatus, attempts, answer, lastGuess, pro
   return (
     <div className={`${styles.overlay} ${showContent ? styles.visible : ''}`}>
       <div className={styles.modal}>
+        <button className={styles.closeBtn} onClick={onDismiss} aria-label="Close">✕</button>
         {won && <div className={styles.starsContainer} aria-hidden="true">
           {Array.from({ length: 20 }).map((_, i) => (
             <span

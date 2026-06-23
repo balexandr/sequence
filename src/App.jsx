@@ -34,15 +34,15 @@ export default function App() {
 
   const [showHowToPlay, setShowHowToPlay] = useState(false);
   const [showStats, setShowStats] = useState(false);
+  const [winDismissed, setWinDismissed] = useState(false);
   const currentYear = new Date().getFullYear();
 
   const footer = (
     <footer className={styles.footer}>
-      <span>© {currentYear} NoodleGames.co</span>
-      <span className={styles.footerDot}>•</span>
-      <a href="https://noodlegames.co" target="_blank" rel="noopener noreferrer" className={styles.footerLink}>
-        noodlegames.co
+      <a href="https://noodlegames.co" target="_blank" rel="noopener noreferrer" className={styles.footerLogo}>
+        🍜 NoodleGames
       </a>
+      <span className={styles.footerCopy}>© {currentYear} NoodleGames.co</span>
     </footer>
   );
 
@@ -156,7 +156,7 @@ export default function App() {
         )}
       </main>
 
-      {isGameOver && (
+      {isGameOver && !winDismissed && (
         <WinScreen
           gameStatus={gameStatus}
           attempts={attempts}
@@ -167,6 +167,7 @@ export default function App() {
           generateShareText={generateShareText}
           stats={stats}
           winPct={winPct}
+          onDismiss={() => setWinDismissed(true)}
         />
       )}
 

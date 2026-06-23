@@ -33,6 +33,27 @@
   overflow-x: hidden;
 }
 
+.closeBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  transition: background 0.15s, color 0.15s;
+}
+
+.closeBtn:hover {
+  background: var(--surface-hover);
+  color: var(--text);
+}
+
 .starsContainer {
   position: absolute;
   inset: 0;
@@ -266,6 +287,7 @@
   background: var(--correct) !important;
   box-shadow: 0 2px 8px rgba(74, 222, 128, 0.2);
 }
+
 
 .countdown {
   display: flex;

@@ -49,11 +49,11 @@ body {
   background-image:
     /* Warm accent glow bleeding from top */
     radial-gradient(ellipse at 50% -8%, rgba(255, 107, 74, 0.1) 0%, transparent 52%),
-    /* Horizontal ruled-line chart grid */
+    /* Diagonal lines — upward progression */
     repeating-linear-gradient(
-      0deg,
-      transparent 0px, transparent 39px,
-      rgba(255, 255, 255, 0.028) 39px, rgba(255, 255, 255, 0.028) 40px
+      62deg,
+      transparent 0px, transparent 22px,
+      rgba(255, 107, 74, 0.04) 22px, rgba(255, 107, 74, 0.04) 23px
     );
   background-attachment: fixed;
 }
