@@ -8,6 +8,8 @@ import WinScreen from './components/WinScreen';
 import HowToPlay from './components/HowToPlay';
 import StatsScreen from './components/StatsScreen';
 import styles from './App.module.css';
+import { GameLogo } from './components/GameLogo';
+import { NoodleLogoIcon } from './components/NoodleLogo';
 
 const HOW_TO_PLAY_KEY = 'sequence-how-to-play-seen';
 
@@ -40,7 +42,7 @@ export default function App() {
   const footer = (
     <footer className={styles.footer}>
       <a href="https://noodlegames.co" target="_blank" rel="noopener noreferrer" className={styles.footerLogo}>
-        🍜 NoodleGames
+        <NoodleLogoIcon size={18} /> NoodleGames
       </a>
       <span className={styles.footerCopy}>© {currentYear} NoodleGames.co</span>
     </footer>
@@ -73,7 +75,7 @@ export default function App() {
       <div className={styles.container}>
         <header className={styles.header}>
           <div className={styles.headerLeft}>
-            <h1 className={styles.logo}>Sequence</h1>
+            <h1 className={styles.logo}><GameLogo />Sequence</h1>
           </div>
         </header>
         <div className={styles.noPuzzle}>
@@ -92,7 +94,7 @@ export default function App() {
     <div className={styles.container}>
       <header className={styles.header}>
         <div className={styles.headerLeft}>
-          <h1 className={styles.logo}>Sequence</h1>
+          <h1 className={styles.logo}><GameLogo />Sequence</h1>
           {puzzleNumber && <span className={styles.puzzleNumber}>#{puzzleNumber}</span>}
         </div>
         <div className={styles.headerRight}>

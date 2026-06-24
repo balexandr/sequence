@@ -24,6 +24,9 @@
 }
 
 .logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   font-size: 1.6rem;
   font-weight: 800;
   letter-spacing: -0.03em;
@@ -172,6 +175,9 @@
 }
 
 .footerLogo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
   font-weight: 600;
   font-size: 0.9rem;
   color: #ff6b4a;
