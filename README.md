@@ -19,7 +19,7 @@ A prompt is shown at the top — for example *"Order these cities by population,
 
 ## Sharing
 
-After the puzzle ends you can share an emoji grid showing your guess history across all attempts — no spoilers, just colours.
+After the puzzle ends you can share an emoji grid showing your guess history across all attempts — no spoilers, just colours. Once you've finished at least one NoodleGame today, a **Share all completed** button appears in the footer, letting you share every game you've solved today in one message.
 
 ---
 
@@ -31,4 +31,4 @@ React + Vite · CSS Modules · @dnd-kit (drag and drop) · localStorage · GitHu
 
 ## Puzzles
 
-Puzzles run from **May 12, 2026** onward, stored in `src/data/puzzles.json` keyed by date. Each entry contains a prompt, the six shuffled items, the correct answer order, and a hint label.
+Puzzles run from **May 12, 2026** onward (234 days, through December 2026), stored in `src/data/puzzles.json` keyed by date. Each entry contains a prompt, the six shuffled items, the correct answer order, and a hint label.
