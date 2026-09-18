@@ -66,6 +66,26 @@ body {
   to   { background-position: 0 0, 0 -230px; }
 }
 
+/* The diagonal-line drift above is too subtle to read as motion once
+   the game's own cards cover most of the viewport, leaving only thin
+   margins visible. This bright pulse rising from the bottom is sized
+   to actually show in those margins. */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(circle 320px at 50% 100%, rgba(255, 107, 74, 0.28) 0%, transparent 70%);
+  animation: sequenceClimb 7s ease-in infinite;
+  z-index: 0;
+}
+
+@keyframes sequenceClimb {
+  0%   { transform: translateY(0); opacity: 0.9; }
+  85%  { opacity: 0.2; }
+  100% { transform: translateY(-140vh); opacity: 0; }
+}
+
 #root {
   min-height: 100%;
   display: flex;
