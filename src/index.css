@@ -68,20 +68,23 @@ body {
 
 /* The diagonal-line drift above is too subtle to read as motion once
    the game's own cards cover most of the viewport, leaving only thin
-   margins visible. This bright pulse rising from the bottom is sized
-   to actually show in those margins. */
+   margins visible. This pulse rising from the bottom is sized to show
+   in those margins. First version was 320px at up to 0.9 opacity,
+   which was bright and wide enough to wash visibly through the
+   semi-transparent cards as it rose behind them, distracting from the
+   actual list. Shrunk and dimmed so it stays a background presence. */
 body::after {
   content: '';
   position: fixed;
   inset: 0;
   pointer-events: none;
-  background: radial-gradient(circle 320px at 50% 100%, rgba(255, 107, 74, 0.28) 0%, transparent 70%);
+  background: radial-gradient(circle 90px at 50% 100%, rgba(255, 107, 74, 0.35) 0%, transparent 70%);
   animation: sequenceClimb 7s ease-in infinite;
   z-index: 0;
 }
 
 @keyframes sequenceClimb {
-  0%   { transform: translateY(0); opacity: 0.9; }
+  0%   { transform: translateY(0); opacity: 0.6; }
   85%  { opacity: 0.2; }
   100% { transform: translateY(-140vh); opacity: 0; }
 }
