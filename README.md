@@ -1,4 +1,4 @@
-# Sequence — Daily Ordering Puzzle
+# Sequence: Daily Ordering Puzzle
 
 A daily puzzle game where you arrange six items in the correct order based on a prompt. You get three attempts.
 
@@ -8,7 +8,7 @@ Part of the [NoodleGames](https://noodlegames.co) family alongside **Odd One Out
 
 ## How to play
 
-A prompt is shown at the top — for example *"Order these cities by population, smallest to largest."* Drag the six items into what you think is the right sequence, then lock in your answer.
+A prompt is shown at the top, for example *"Order these cities by population, smallest to largest."* Drag the six items into what you think is the right sequence, then lock in your answer.
 
 - 🟩 Green = correct position
 - 🟥 Red = wrong position
@@ -19,7 +19,7 @@ A prompt is shown at the top — for example *"Order these cities by population,
 
 ## Sharing
 
-After the puzzle ends you can share an emoji grid showing your guess history across all attempts — no spoilers, just colours. Once you've finished at least one NoodleGame today, a **Share all completed** button appears in the footer, letting you share every game you've solved today in one message.
+After the puzzle ends you can share an emoji grid showing your guess history across all attempts, no spoilers, just colours. Once you've finished at least one NoodleGame today, a **Share all completed** button appears in the footer, letting you share every game you've solved today in one message.
 
 ---
 
