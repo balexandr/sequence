@@ -13,7 +13,7 @@ A prompt is shown at the top — for example *"Order these cities by population,
 - 🟩 Green = correct position
 - 🟥 Red = wrong position
 - You get **3 attempts** per puzzle
-- Resets daily at **midnight EST**
+- Resets daily at **midnight ET**
 
 ---
 
