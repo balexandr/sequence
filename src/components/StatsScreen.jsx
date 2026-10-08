@@ -1,3 +1,4 @@
+import { IconClose, IconXSmall } from './Icons';
 import styles from './StatsScreen.module.css';
 
 export default function StatsScreen({ stats, winPct, history, maxAttempts, onClose }) {
@@ -11,7 +12,7 @@ export default function StatsScreen({ stats, winPct, history, maxAttempts, onClo
   return (
     <div className={styles.overlay} onClick={onClose}>
       <div className={styles.modal} onClick={(e) => e.stopPropagation()}>
-        <button className={styles.closeButton} onClick={onClose} aria-label="Close">×</button>
+        <button className={styles.closeButton} onClick={onClose} aria-label="Close"><IconClose /></button>
 
         <h2 className={styles.title}>Statistics</h2>
 
@@ -75,7 +76,7 @@ export default function StatsScreen({ stats, winPct, history, maxAttempts, onClo
                     ))}
                   </div>
                   <span className={`${styles.historyResult} ${entry.won ? styles.historyWin : styles.historyLoss}`}>
-                    {entry.won ? `${entry.attemptNumber}/${maxAttempts}` : '✗'}
+                    {entry.won ? `${entry.attemptNumber}/${maxAttempts}` : <IconXSmall size={11} />}
                   </span>
                 </div>
               ))}

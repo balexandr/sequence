@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { IconClose, IconTarget, IconClipboard, IconCheckmark } from './Icons';
 import styles from './WinScreen.module.css';
 
 function getTimeToMidnight() {
@@ -37,7 +38,7 @@ export default function WinScreen({ gameStatus, attempts, answer, lastGuess, pro
         await navigator.share({ text });
         return;
       } catch {
-        // User cancelled or share failed — fall through to clipboard
+        // User cancelled or share failed, fall through to clipboard
       }
     }
     try {
@@ -62,7 +63,7 @@ export default function WinScreen({ gameStatus, attempts, answer, lastGuess, pro
   return (
     <div className={`${styles.overlay} ${showContent ? styles.visible : ''}`}>
       <div className={styles.modal}>
-        <button className={styles.closeBtn} onClick={onDismiss} aria-label="Close">✕</button>
+        <button className={styles.closeBtn} onClick={onDismiss} aria-label="Close"><IconClose /></button>
         {won && <div className={styles.starsContainer} aria-hidden="true">
           {Array.from({ length: 20 }).map((_, i) => (
             <span
@@ -80,7 +81,7 @@ export default function WinScreen({ gameStatus, attempts, answer, lastGuess, pro
         </div>}
 
         <div className={styles.resultHeader}>
-          <span className={styles.emoji}>{won ? '\u{1f3af}' : '\u{1f4cb}'}</span>
+          <span className={styles.emoji}>{won ? <IconTarget size={44} /> : <IconClipboard size={44} />}</span>
           <h2 className={styles.title}>
             {won ? 'Perfect Sequence!' : 'Not quite'}
           </h2>
@@ -171,7 +172,7 @@ export default function WinScreen({ gameStatus, attempts, answer, lastGuess, pro
           className={`${styles.shareButton} ${copied ? styles.copied : ''}`}
           onClick={handleShare}
         >
-          {copied ? '\u2713 Copied to clipboard' : 'Share your result'}
+          {copied ? <><IconCheckmark /> Copied to clipboard</> : 'Share your result'}
         </button>
 
         <div className={styles.countdown}>

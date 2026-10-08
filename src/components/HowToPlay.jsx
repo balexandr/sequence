@@ -1,3 +1,4 @@
+import { IconDrag, IconTarget, IconShare } from './Icons';
 import styles from './HowToPlay.module.css';
 
 export default function HowToPlay({ onClose }) {
@@ -9,21 +10,21 @@ export default function HowToPlay({ onClose }) {
 
         <div className={styles.steps}>
           <div className={styles.step}>
-            <span className={styles.stepIcon}>👆</span>
+            <span className={styles.stepIcon}><IconDrag /></span>
             <div>
               <p className={styles.stepTitle}>Drag to reorder</p>
               <p className={styles.stepDesc}>Drag the items up and down to arrange them in what you think is the correct sequence.</p>
             </div>
           </div>
           <div className={styles.step}>
-            <span className={styles.stepIcon}>🎯</span>
+            <span className={styles.stepIcon}><IconTarget /></span>
             <div>
               <p className={styles.stepTitle}>Submit your guess</p>
               <p className={styles.stepDesc}>Green means correct position. Red means wrong. You get 3 attempts.</p>
             </div>
           </div>
           <div className={styles.step}>
-            <span className={styles.stepIcon}>📤</span>
+            <span className={styles.stepIcon}><IconShare /></span>
             <div>
               <p className={styles.stepTitle}>Share your result</p>
               <p className={styles.stepDesc}>After you finish, share your emoji grid with friends.</p>
