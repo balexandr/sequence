@@ -1,4 +1,4 @@
-import { useState, useCallback, useEffect } from 'react';
+import { useState, useCallback, useEffect, useRef } from 'react';
 import puzzles from '../data/puzzles.json';
 
 const STORAGE_KEY = 'sequence-game-state';
@@ -51,6 +51,11 @@ export function useGameState() {
   const [feedback, setFeedback] = useState(null); // array of 'correct'|'wrong' or null
   const [showFeedback, setShowFeedback] = useState(false);
   const [initialized, setInitialized] = useState(false);
+  // Leaderboard tiebreak: solve time, read back only at the instant of a
+  // winning submit. Restarts on a reload mid-puzzle, persisted once a win
+  // happens so a later reload keeps the real time.
+  const startTimeRef = useRef(null);
+  const [elapsedSecondsAtWin, setElapsedSecondsAtWin] = useState(null);
 
   // Initialize state
   useEffect(() => {
@@ -68,6 +73,8 @@ export function useGameState() {
       setGameStatus(saved.gameStatus);
       setFeedback(saved.feedback);
       setShowFeedback(saved.gameStatus !== 'playing');
+      setElapsedSecondsAtWin(saved.elapsedSecondsAtWin ?? null);
+      if (saved.gameStatus === 'playing') startTimeRef.current = performance.now();
     } else {
       // Shuffle items ensuring they don't start in the correct order
       let shuffled = shuffleArray(puzzle.items);
@@ -75,6 +82,7 @@ export function useGameState() {
         shuffled = shuffleArray(puzzle.items);
       }
       setItems(shuffled);
+      startTimeRef.current = performance.now();
     }
     setInitialized(true);
   }, [dateKey]);
@@ -90,8 +98,9 @@ export function useGameState() {
       attemptNumber,
       gameStatus,
       feedback,
+      elapsedSecondsAtWin,
     });
-  }, [items, attempts, guessOrders, attemptNumber, gameStatus, feedback, initialized]);
+  }, [items, attempts, guessOrders, attemptNumber, gameStatus, feedback, elapsedSecondsAtWin, initialized]);
 
   const reorderItems = useCallback((newOrder) => {
     if (gameStatus !== 'playing') return;
@@ -123,6 +132,9 @@ export function useGameState() {
     if (isCorrect) {
       setGameStatus('won');
       setAttemptNumber(newAttemptNumber);
+      setElapsedSecondsAtWin(
+        startTimeRef.current ? Math.round((performance.now() - startTimeRef.current) / 1000) : null
+      );
     } else if (newAttemptNumber >= MAX_ATTEMPTS) {
       setGameStatus('lost');
       setAttemptNumber(newAttemptNumber);
@@ -154,6 +166,7 @@ export function useGameState() {
     initialized,
     dateKey,
     puzzleNumber,
+    elapsedSecondsAtWin,
     lastGuessOrder: guessOrders.length > 0 ? guessOrders[guessOrders.length - 1] : items,
     reorderItems,
     submitGuess,

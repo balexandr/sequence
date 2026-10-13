@@ -31,6 +31,7 @@ export default function App() {
     initialized,
     dateKey,
     puzzleNumber,
+    elapsedSecondsAtWin,
     lastGuessOrder,
     reorderItems,
     submitGuess,
@@ -105,7 +106,7 @@ export default function App() {
   useEffect(() => {
     if (gameStatus !== 'won') return;
     const t = setTimeout(() => {
-      const pending = toLeaderboardScore(attemptNumber);
+      const pending = toLeaderboardScore(attemptNumber, elapsedSecondsAtWin);
       fetchTodayBoard('sequence', dateKey).then((board) => {
         if (!board.config) return;
         if (findMyRow('sequence', board.rows)) return;
@@ -242,7 +243,7 @@ export default function App() {
       {showLeaderboard && (
         <LeaderboardPanel
           dateKey={dateKey}
-          pendingScore={gameStatus === 'won' ? toLeaderboardScore(attemptNumber) : null}
+          pendingScore={gameStatus === 'won' ? toLeaderboardScore(attemptNumber, elapsedSecondsAtWin) : null}
           onClose={() => setShowLeaderboard(false)}
         />
       )}
