@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { IconClose, IconTarget, IconClipboard, IconCheckmark } from './Icons';
+import { IconClose, IconTarget, IconClipboard, IconCheckmark, IconLeaderboard } from './Icons';
 import styles from './WinScreen.module.css';
 
 function getTimeToMidnight() {
@@ -14,7 +14,7 @@ function getTimeToMidnight() {
   return { hours, minutes, seconds };
 }
 
-export default function WinScreen({ gameStatus, attempts, answer, lastGuess, prompt, puzzleNumber, generateShareText, stats, winPct, onDismiss }) {
+export default function WinScreen({ gameStatus, attempts, answer, lastGuess, prompt, puzzleNumber, generateShareText, stats, winPct, onDismiss, onViewLeaderboard }) {
   const [copied, setCopied] = useState(false);
   const [countdown, setCountdown] = useState(getTimeToMidnight());
   const [showContent, setShowContent] = useState(false);
@@ -174,6 +174,12 @@ export default function WinScreen({ gameStatus, attempts, answer, lastGuess, pro
         >
           {copied ? <><IconCheckmark /> Copied to clipboard</> : 'Share your result'}
         </button>
+
+        {gameStatus === 'won' && (
+          <button className={styles.leaderboardButton} onClick={onViewLeaderboard}>
+            <IconLeaderboard size={16} /> View today's leaderboard
+          </button>
+        )}
 
         <div className={styles.countdown}>
           <span className={styles.countdownLabel}>Next puzzle in</span>
