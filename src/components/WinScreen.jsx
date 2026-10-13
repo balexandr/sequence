@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { IconClose, IconTarget, IconClipboard, IconCheckmark, IconLeaderboard } from './Icons';
+import { copyToClipboard } from '../utils/shareAll';
 import styles from './WinScreen.module.css';
 
 function getTimeToMidnight() {
@@ -41,18 +42,7 @@ export default function WinScreen({ gameStatus, attempts, answer, lastGuess, pro
         // User cancelled or share failed, fall through to clipboard
       }
     }
-    try {
-      await navigator.clipboard.writeText(text);
-    } catch {
-      const textarea = document.createElement('textarea');
-      textarea.value = text;
-      textarea.style.position = 'fixed';
-      textarea.style.opacity = '0';
-      document.body.appendChild(textarea);
-      textarea.select();
-      document.execCommand('copy');
-      document.body.removeChild(textarea);
-    }
+    await copyToClipboard(text);
     setCopied(true);
     setTimeout(() => setCopied(false), 2500);
   };
